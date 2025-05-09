@@ -1,0 +1,50 @@
+# ChatGPT-generated solution will go here.
+from collections import deque
+
+def main():
+    with open('input.txt') as f:
+        grid = [list(line.strip()) for line in f if line.strip()]
+
+    rows, cols = len(grid), len(grid[0])
+    visited = [[False] * cols for _ in range(rows)]
+    total_price = 0
+
+    def bfs(sr, sc):
+        plant = grid[sr][sc]
+        queue = deque()
+        queue.append((sr, sc))
+        visited[sr][sc] = True
+        region = [(sr, sc)]
+        while queue:
+            r, c = queue.popleft()
+            for dr, dc in [(-1,0), (1,0), (0,-1), (0,1)]:
+                nr, nc = r + dr, c + dc
+                if 0 <= nr < rows and 0 <= nc < cols:
+                    if not visited[nr][nc] and grid[nr][nc] == plant:
+                        visited[nr][nc] = True
+                        queue.append((nr, nc))
+                        region.append((nr, nc))
+        return region
+
+    def calculate_perimeter(region_set):
+        perimeter = 0
+        for r, c in region_set:
+            for dr, dc in [(-1,0), (1,0), (0,-1), (0,1)]:
+                nr, nc = r + dr, c + dc
+                if not (0 <= nr < rows and 0 <= nc < cols) or (nr, nc) not in region_set:
+                    perimeter += 1
+        return perimeter
+
+    for r in range(rows):
+        for c in range(cols):
+            if not visited[r][c]:
+                region = bfs(r, c)
+                area = len(region)
+                region_set = set(region)
+                perimeter = calculate_perimeter(region_set)
+                total_price += area * perimeter
+
+    print(total_price)
+
+if __name__ == '__main__':
+    main()

@@ -1,0 +1,47 @@
+# ChatGPT-generated solution will go here.
+import heapq
+
+def main():
+    with open('input.txt') as f:
+        grid = [list(line.strip()) for line in f if line.strip()]
+
+    rows, cols = len(grid), len(grid[0])
+
+    # Find start and end
+    for r in range(rows):
+        for c in range(cols):
+            if grid[r][c] == 'S':
+                start = (r, c)
+            elif grid[r][c] == 'E':
+                end = (r, c)
+
+    # Directions: 0=East, 1=South, 2=West, 3=North
+    drc = [(0,1), (1,0), (0,-1), (-1,0)]
+
+    # Priority queue: (cost, row, col, direction)
+    heap = []
+    visited = set()
+
+    for d in range(4):
+        heapq.heappush(heap, (1000, start[0], start[1], d))  # turning from East to d
+
+    while heap:
+        cost, r, c, d = heapq.heappop(heap)
+        if (r, c, d) in visited:
+            continue
+        visited.add((r, c, d))
+        if (r, c) == end:
+            print(cost)
+            return
+        # Move forward
+        dr, dc = drc[d]
+        nr, nc = r + dr, c + dc
+        if 0 <= nr < rows and 0 <= nc < cols and grid[nr][nc] != '#':
+            heapq.heappush(heap, (cost + 1, nr, nc, d))
+        # Turn left and right
+        for nd in [(d + 1) % 4, (d - 1) % 4]:
+            if (r, c, nd) not in visited:
+                heapq.heappush(heap, (cost + 1000, r, c, nd))
+
+if __name__ == "__main__":
+    main()

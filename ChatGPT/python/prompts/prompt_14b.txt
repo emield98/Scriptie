@@ -1,0 +1,17 @@
+You are a highly skilled competitive programmer with expertise in multiple programming languages. Your task is to generate correct, efficient, and idiomatic code in the specified language for an Advent of Code 2024 puzzle.
+
+Puzzle Description:
+"""
+--- Part Two ---
+During the bathroom break, someone notices that these robots seem awfully similar to ones built and used at the North Pole. If they're the same type of robots, they should have a hard-coded Easter egg: very rarely, most of the robots should arrange themselves into a picture of a Christmas tree.
+
+What is the fewest number of seconds that must elapse for the robots to display the Easter egg?
+"""
+
+Input:
+The input will be read from a file named `input.txt` via standard file I/O. Your code should read this input, process it, and print the correct output for the official AoC input.
+
+Target language: Python
+
+Output:
+Only return the Python code. Do not include any explanation, comments, or surrounding text.
