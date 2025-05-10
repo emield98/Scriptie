@@ -1,0 +1,455 @@
+{
+    "01": {
+        "c_1st_attempt": {
+            "day": "01",
+            "part": "Part 1",
+            "script_file": "output_01a.c",
+            "status": "CORRECT",
+            "output": "1646452",
+            "expected": 1646452
+        },
+        "c_2nd_attempt": {
+            "day": "01",
+            "part": "Part 2",
+            "script_file": "output_01b.c",
+            "status": "CORRECT",
+            "output": "23609874",
+            "expected": 23609874
+        }
+    },
+    "02": {
+        "c_1st_attempt": {
+            "day": "02",
+            "part": "Part 1",
+            "script_file": "output_02a.c",
+            "status": "INCORRECT",
+            "output": "277",
+            "expected": 524
+        },
+        "c_2nd_attempt": {
+            "day": "02",
+            "part": "Part 2",
+            "script_file": "output_02b.c",
+            "status": "INCORRECT",
+            "output": "299",
+            "expected": 569
+        }
+    },
+    "03": {
+        "c_1st_attempt": {
+            "day": "03",
+            "part": "Part 1",
+            "script_file": "output_03a.c",
+            "status": "INCORRECT",
+            "output": "14100415",
+            "expected": 167650499
+        },
+        "c_2nd_attempt": {
+            "day": "03",
+            "part": "Part 2",
+            "script_file": "output_03b.c",
+            "status": "INCORRECT",
+            "output": "14100415",
+            "expected": 95846796
+        }
+    },
+    "04": {
+        "c_1st_attempt": {
+            "day": "04",
+            "part": "Part 1",
+            "script_file": "output_04a.c",
+            "status": "INCORRECT",
+            "output": "",
+            "expected": 2464
+        },
+        "c_2nd_attempt": {
+            "day": "04",
+            "part": "Part 2",
+            "script_file": "output_04b.c",
+            "status": "INCORRECT",
+            "output": "",
+            "expected": 1982
+        }
+    },
+    "05": {
+        "c_1st_attempt": {
+            "day": "05",
+            "part": "Part 1",
+            "script_file": "output_05a.c",
+            "status": "INCORRECT",
+            "output": "1486",
+            "expected": 5391
+        },
+        "c_2nd_attempt": {
+            "day": "05",
+            "part": "Part 2",
+            "script_file": "output_05b.c",
+            "status": "INCORRECT",
+            "output": "10272",
+            "expected": 6142
+        }
+    },
+    "06": {
+        "c_1st_attempt": {
+            "day": "06",
+            "part": "Part 1",
+            "script_file": "output_06a.c",
+            "status": "CORRECT",
+            "output": "5312",
+            "expected": 5312
+        },
+        "c_2nd_attempt": {
+            "day": "06",
+            "part": "Part 2",
+            "script_file": "output_06b.c",
+            "status": "INCORRECT",
+            "output": "16105",
+            "expected": 1748
+        }
+    },
+    "07": {
+        "c_1st_attempt": {
+            "day": "07",
+            "part": "Part 1",
+            "script_file": "output_07a.c",
+            "status": "INCORRECT",
+            "output": "0",
+            "expected": 3351424677624
+        },
+        "c_2nd_attempt": {
+            "day": "07",
+            "part": "Part 2",
+            "script_file": "output_07b.c",
+            "status": "INCORRECT",
+            "output": "0",
+            "expected": 204976636995111
+        }
+    },
+    "08": {
+        "c_1st_attempt": {
+            "day": "08",
+            "part": "Part 1",
+            "script_file": "output_08a.c",
+            "status": "INCORRECT",
+            "output": "11",
+            "expected": 367
+        },
+        "c_2nd_attempt": {
+            "day": "08",
+            "part": "Part 2",
+            "script_file": "output_08b.c",
+            "status": "INCORRECT",
+            "output": "0",
+            "expected": 1285
+        }
+    },
+    "09": {
+        "c_1st_attempt": {
+            "day": "09",
+            "part": "Part 1",
+            "script_file": "output_09a.c",
+            "status": "TIMEOUT: Command '/home/scriptie/Scriptie/output_program' timed out after 60 seconds",
+            "output": "",
+            "expected": 6279058075753
+        },
+        "c_2nd_attempt": {
+            "day": "09",
+            "part": "Part 2",
+            "script_file": "output_09b.c",
+            "status": "INCORRECT",
+            "output": "",
+            "expected": 6301361958738
+        }
+    },
+    "10": {
+        "c_1st_attempt": {
+            "day": "10",
+            "part": "Part 1",
+            "script_file": "output_10a.c",
+            "status": "INCORRECT",
+            "output": "129",
+            "expected": 459
+        },
+        "c_2nd_attempt": {
+            "day": "10",
+            "part": "Part 2",
+            "script_file": "output_10b.c",
+            "status": "INCORRECT",
+            "output": "1451",
+            "expected": 1034
+        }
+    },
+    "11": {
+        "c_1st_attempt": {
+            "day": "11",
+            "part": "Part 1",
+            "script_file": "output_11a.c",
+            "status": "INCORRECT",
+            "output": "",
+            "expected": 193899
+        },
+        "c_2nd_attempt": {
+            "day": "11",
+            "part": "Part 2",
+            "script_file": "output_11b.c",
+            "status": "INCORRECT",
+            "output": "",
+            "expected": 229682160383225
+        }
+    },
+    "12": {
+        "c_1st_attempt": {
+            "day": "12",
+            "part": "Part 1",
+            "script_file": "output_12a.c",
+            "status": "INCORRECT",
+            "output": "",
+            "expected": 1449902
+        },
+        "c_2nd_attempt": {
+            "day": "12",
+            "part": "Part 2",
+            "script_file": "output_12b.c",
+            "status": "INCORRECT",
+            "output": "",
+            "expected": 908042
+        }
+    },
+    "13": {
+        "c_1st_attempt": {
+            "day": "13",
+            "part": "Part 1",
+            "script_file": "output_13a.c",
+            "status": "INCORRECT",
+            "output": "",
+            "expected": 29517
+        },
+        "c_2nd_attempt": {
+            "day": "13",
+            "part": "Part 2",
+            "script_file": "output_13b.c",
+            "status": "INCORRECT",
+            "output": "",
+            "expected": 103570327981381
+        }
+    },
+    "14": {
+        "c_1st_attempt": {
+            "day": "14",
+            "part": "Part 1",
+            "script_file": "output_14a.c",
+            "status": "INCORRECT",
+            "output": "436800",
+            "expected": "230461440"
+        },
+        "c_2nd_attempt": {
+            "day": "14",
+            "part": "Part 2",
+            "script_file": "output_14b.c",
+            "status": "INCORRECT",
+            "output": "0",
+            "expected": 6668
+        }
+    },
+    "15": {
+        "c_1st_attempt": {
+            "day": "15",
+            "part": "Part 1",
+            "script_file": "output_15a.c",
+            "status": "TIMEOUT: Command '/home/scriptie/Scriptie/output_program' timed out after 60 seconds",
+            "output": "",
+            "expected": 1478649
+        },
+        "c_2nd_attempt": {
+            "day": "15",
+            "part": "Part 2",
+            "script_file": "output_15b.c",
+            "status": "TIMEOUT: Command '/home/scriptie/Scriptie/output_program' timed out after 60 seconds",
+            "output": "",
+            "expected": 1495455
+        }
+    },
+    "16": {
+        "c_1st_attempt": {
+            "day": "16",
+            "part": "Part 1",
+            "script_file": "output_16a.c",
+            "status": "INCORRECT",
+            "output": "",
+            "expected": 99488
+        },
+        "c_2nd_attempt": {
+            "day": "16",
+            "part": "Part 2",
+            "script_file": "output_16b.c",
+            "status": "INCORRECT",
+            "output": "",
+            "expected": 516
+        }
+    },
+    "17": {
+        "c_1st_attempt": {
+            "day": "17",
+            "part": "Part 1",
+            "script_file": "output_17a.c",
+            "status": "TIMEOUT: Command '/home/scriptie/Scriptie/output_program' timed out after 60 seconds",
+            "output": "",
+            "expected": "2,7,6,5,6,0,2,3,1"
+        },
+        "c_2nd_attempt": {
+            "day": "17",
+            "part": "Part 2",
+            "script_file": "output_17b.c",
+            "status": "TIMEOUT: Command '/home/scriptie/Scriptie/output_program' timed out after 60 seconds",
+            "output": "",
+            "expected": 107416870455451
+        }
+    },
+    "18": {
+        "c_1st_attempt": {
+            "day": "18",
+            "part": "Part 1",
+            "script_file": "output_18a.c",
+            "status": "INCORRECT",
+            "output": "",
+            "expected": 334
+        },
+        "c_2nd_attempt": {
+            "day": "18",
+            "part": "Part 2",
+            "script_file": "output_18b.c",
+            "status": "INCORRECT",
+            "output": "",
+            "expected": [
+                20,
+                12
+            ]
+        }
+    },
+    "19": {
+        "c_1st_attempt": {
+            "day": "19",
+            "part": "Part 1",
+            "script_file": "output_19a.c",
+            "status": "INCORRECT",
+            "output": "",
+            "expected": 324
+        },
+        "c_2nd_attempt": {
+            "day": "19",
+            "part": "Part 2",
+            "script_file": "output_19b.c",
+            "status": "INCORRECT",
+            "output": "",
+            "expected": 575227823167869
+        }
+    },
+    "20": {
+        "c_1st_attempt": {
+            "day": "20",
+            "part": "Part 1",
+            "script_file": "output_20a.c",
+            "status": "INCORRECT",
+            "output": "",
+            "expected": 1415
+        },
+        "c_2nd_attempt": {
+            "day": "20",
+            "part": "Part 2",
+            "script_file": "output_20b.c",
+            "status": "INCORRECT",
+            "output": "",
+            "expected": 1022577
+        }
+    },
+    "21": {
+        "c_1st_attempt": {
+            "day": "21",
+            "part": "Part 1",
+            "script_file": "output_21a.c",
+            "status": "INCORRECT",
+            "output": "0",
+            "expected": 128962
+        },
+        "c_2nd_attempt": {
+            "day": "21",
+            "part": "Part 2",
+            "script_file": "output_21b.c",
+            "status": "INCORRECT",
+            "output": "0",
+            "expected": 159684145150108
+        }
+    },
+    "22": {
+        "c_1st_attempt": {
+            "day": "22",
+            "part": "Part 1",
+            "script_file": "output_22a.c",
+            "status": "INCORRECT",
+            "output": "349813602",
+            "expected": 13234715490
+        },
+        "c_2nd_attempt": {
+            "day": "22",
+            "part": "Part 2",
+            "script_file": "output_22b.c",
+            "status": "INCORRECT",
+            "output": "",
+            "expected": 1490
+        }
+    },
+    "23": {
+        "c_1st_attempt": {
+            "day": "23",
+            "part": "Part 1",
+            "script_file": "output_23a.c",
+            "status": "INCORRECT",
+            "output": "",
+            "expected": 1485
+        },
+        "c_2nd_attempt": {
+            "day": "23",
+            "part": "Part 2",
+            "script_file": "output_23b.c",
+            "status": "INCORRECT",
+            "output": "",
+            "expected": "cc,dz,ea,hj,if,it,kf,qo,sk,ug,ut,uv,wh"
+        }
+    },
+    "24": {
+        "c_1st_attempt": {
+            "day": "24",
+            "part": "Part 1",
+            "script_file": "output_24a.c",
+            "status": "INCORRECT",
+            "output": "",
+            "expected": 54715147844840
+        },
+        "c_2nd_attempt": {
+            "day": "24",
+            "part": "Part 2",
+            "script_file": "output_24b.c",
+            "status": "INCORRECT",
+            "output": "",
+            "expected": "ggn,grm,jcb,ndw,twr,z10,z32,z39"
+        }
+    },
+    "25": {
+        "c_1st_attempt": {
+            "day": "25",
+            "part": "Part 1",
+            "script_file": "output_25a.c",
+            "status": "INCORRECT",
+            "output": "0",
+            "expected": 2900
+        },
+        "c_2nd_attempt": {
+            "day": "25",
+            "part": "Part 2",
+            "script_file": "output_25b.c",
+            "status": "SCRIPT_NOT_FOUND",
+            "output": "",
+            "expected": null
+        }
+    }
+}
