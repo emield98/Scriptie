@@ -1,0 +1,808 @@
+Execution started at 2025-05-11 17:03:42
+[2025-05-11 17:03:42] CSV report initialized at /home/scriptie/Scriptie/Reports/Check_Report.csv
+[2025-05-11 17:03:42] Loaded 25 puzzle entries from /home/scriptie/Scriptie/input_answers/answers2024.json
+[2025-05-11 17:03:42] 
+Processing Day 01 [4.0%]
+[2025-05-11 17:03:42] Checking C solution for Day 01 Part 1
+[2025-05-11 17:03:42]   → Compiling C program: output_01a.c
+[2025-05-11 17:03:43]   → Running C program
+[2025-05-11 17:03:43]   ✓ Output matches expected: 1646452
+[2025-05-11 17:03:43] Day 01 Part Part 1 (C): CORRECT - Time: 0.192s
+[2025-05-11 17:03:43] Checking C solution for Day 01 Part 2
+[2025-05-11 17:03:43]   → Compiling C program: output_01b.c
+[2025-05-11 17:03:43]   → Running C program
+[2025-05-11 17:03:43]   ✓ Output matches expected: 23609874
+[2025-05-11 17:03:43] Day 01 Part Part 2 (C): CORRECT - Time: 0.347s
+[2025-05-11 17:03:43] Checking Python solution for Day 01 Part 1
+[2025-05-11 17:03:43]   → Running Python script: output_01a.py
+[2025-05-11 17:03:43]   ✓ Output matches expected: 1646452
+[2025-05-11 17:03:43] Day 01 Part Part 1 (Python): CORRECT - Time: 0.007s
+[2025-05-11 17:03:43] Checking Python solution for Day 01 Part 2
+[2025-05-11 17:03:43]   → Running Python script: output_01b.py
+[2025-05-11 17:03:43]   ✓ Output matches expected: 23609874
+[2025-05-11 17:03:43] Day 01 Part Part 2 (Python): CORRECT - Time: 0.008s
+[2025-05-11 17:03:43] Checking Clojure solution for Day 01 Part 1
+[2025-05-11 17:03:43]   → Running Clojure script: output_01a.clj
+[2025-05-11 17:03:44]   ✓ Output matches expected: 1646452
+[2025-05-11 17:03:44] Day 01 Part Part 1 (Clojure): CORRECT - Time: 0.616s
+[2025-05-11 17:03:44] Checking Clojure solution for Day 01 Part 2
+[2025-05-11 17:03:44]   → Running Clojure script: output_01b.clj
+[2025-05-11 17:03:44]   ✓ Output matches expected: 23609874
+[2025-05-11 17:03:44] Day 01 Part Part 2 (Clojure): CORRECT - Time: 0.615s
+[2025-05-11 17:03:44] 
+Processing Day 02 [8.0%]
+[2025-05-11 17:03:44] Checking C solution for Day 02 Part 1
+[2025-05-11 17:03:44]   → Compiling C program: output_02a.c
+[2025-05-11 17:03:44]   → Running C program
+[2025-05-11 17:03:44]   ✗ Output does not match expected:
+[2025-05-11 17:03:44]     - Got:      277
+[2025-05-11 17:03:44]     - Expected: 524
+[2025-05-11 17:03:44] Day 02 Part Part 1 (C): INCORRECT - Time: 0.095s
+[2025-05-11 17:03:44] Checking C solution for Day 02 Part 2
+[2025-05-11 17:03:44]   → Compiling C program: output_02b.c
+[2025-05-11 17:03:44]   → Running C program
+[2025-05-11 17:03:44]   ✗ Output does not match expected:
+[2025-05-11 17:03:44]     - Got:      299
+[2025-05-11 17:03:44]     - Expected: 569
+[2025-05-11 17:03:44] Day 02 Part Part 2 (C): INCORRECT - Time: 0.172s
+[2025-05-11 17:03:44] Checking Python solution for Day 02 Part 1
+[2025-05-11 17:03:44]   → Running Python script: output_02a.py
+[2025-05-11 17:03:44]   ✓ Output matches expected: 524
+[2025-05-11 17:03:44] Day 02 Part Part 1 (Python): CORRECT - Time: 0.009s
+[2025-05-11 17:03:44] Checking Python solution for Day 02 Part 2
+[2025-05-11 17:03:44]   → Running Python script: output_02b.py
+[2025-05-11 17:03:44]   ✓ Output matches expected: 569
+[2025-05-11 17:03:44] Day 02 Part Part 2 (Python): CORRECT - Time: 0.011s
+[2025-05-11 17:03:44] Checking Clojure solution for Day 02 Part 1
+[2025-05-11 17:03:44]   → Running Clojure script: output_02a.clj
+[2025-05-11 17:03:45]   ✓ Output matches expected: 524
+[2025-05-11 17:03:45] Day 02 Part Part 1 (Clojure): CORRECT - Time: 0.628s
+[2025-05-11 17:03:45] Checking Clojure solution for Day 02 Part 2
+[2025-05-11 17:03:45]   → Running Clojure script: output_02b.clj
+[2025-05-11 17:03:46]   ✓ Output matches expected: 569
+[2025-05-11 17:03:46] Day 02 Part Part 2 (Clojure): CORRECT - Time: 0.675s
+[2025-05-11 17:03:46] 
+Processing Day 03 [12.0%]
+[2025-05-11 17:03:46] Checking C solution for Day 03 Part 1
+[2025-05-11 17:03:46]   → Compiling C program: output_03a.c
+[2025-05-11 17:03:46]   → Running C program
+[2025-05-11 17:03:46]   ✗ Output does not match expected:
+[2025-05-11 17:03:46]     - Got:      14100415
+[2025-05-11 17:03:46]     - Expected: 167650499
+[2025-05-11 17:03:46] Day 03 Part Part 1 (C): INCORRECT - Time: 0.103s
+[2025-05-11 17:03:46] Checking C solution for Day 03 Part 2
+[2025-05-11 17:03:46]   → Compiling C program: output_03b.c
+[2025-05-11 17:03:46]   → Running C program
+[2025-05-11 17:03:46]   ✗ Output does not match expected:
+[2025-05-11 17:03:46]     - Got:      14100415
+[2025-05-11 17:03:46]     - Expected: 95846796
+[2025-05-11 17:03:46] Day 03 Part Part 2 (C): INCORRECT - Time: 0.078s
+[2025-05-11 17:03:46] Checking Python solution for Day 03 Part 1
+[2025-05-11 17:03:46]   → Running Python script: output_03a.py
+[2025-05-11 17:03:46]   ✓ Output matches expected: 167650499
+[2025-05-11 17:03:46] Day 03 Part Part 1 (Python): CORRECT - Time: 0.011s
+[2025-05-11 17:03:46] Checking Python solution for Day 03 Part 2
+[2025-05-11 17:03:46]   → Running Python script: output_03b.py
+[2025-05-11 17:03:46]   ✓ Output matches expected: 95846796
+[2025-05-11 17:03:46] Day 03 Part Part 2 (Python): CORRECT - Time: 0.011s
+[2025-05-11 17:03:46] Checking Clojure solution for Day 03 Part 1
+[2025-05-11 17:03:46]   → Running Clojure script: output_03a.clj
+[2025-05-11 17:03:47]   ✓ Output matches expected: 167650499
+[2025-05-11 17:03:47] Day 03 Part Part 1 (Clojure): CORRECT - Time: 0.574s
+[2025-05-11 17:03:47] Checking Clojure solution for Day 03 Part 2
+[2025-05-11 17:03:47]   → Running Clojure script: output_03b.clj
+[2025-05-11 17:03:47]   ✗ Runtime error: Syntax error reading source at (output_03b.clj:24:1). EOF while reading, starting at line 5  Full report at: /tmp/clojure-14602097505455803871.edn
+[2025-05-11 17:03:47] Day 03 Part Part 2 (Clojure): ERROR - Time: 0.662s
+[2025-05-11 17:03:47] 
+Processing Day 04 [16.0%]
+[2025-05-11 17:03:47] Checking C solution for Day 04 Part 1
+[2025-05-11 17:03:47]   → Compiling C program: output_04a.c
+[2025-05-11 17:03:47]   → Running C program
+[2025-05-11 17:03:47]   ✗ Program produced an error: *** stack smashing detected ***: terminated
+[2025-05-11 17:03:47] Day 04 Part Part 1 (C): RUNTIME_ERROR - Time: 0.081s
+[2025-05-11 17:03:47] Checking C solution for Day 04 Part 2
+[2025-05-11 17:03:47]   → Compiling C program: output_04b.c
+[2025-05-11 17:03:47]   → Running C program
+[2025-05-11 17:03:47]   ✗ Program produced an error: *** stack smashing detected ***: terminated
+[2025-05-11 17:03:47] Day 04 Part Part 2 (C): RUNTIME_ERROR - Time: 0.140s
+[2025-05-11 17:03:47] Checking Python solution for Day 04 Part 1
+[2025-05-11 17:03:47]   → Running Python script: output_04a.py
+[2025-05-11 17:03:47]   ✓ Output matches expected: 2464
+[2025-05-11 17:03:47] Day 04 Part Part 1 (Python): CORRECT - Time: 0.059s
+[2025-05-11 17:03:47] Checking Python solution for Day 04 Part 2
+[2025-05-11 17:03:47]   → Running Python script: output_04b.py
+[2025-05-11 17:03:47]   ✓ Output matches expected: 1982
+[2025-05-11 17:03:47] Day 04 Part Part 2 (Python): CORRECT - Time: 0.041s
+[2025-05-11 17:03:47] Checking Clojure solution for Day 04 Part 1
+[2025-05-11 17:03:47]   → Running Clojure script: output_04a.clj
+[2025-05-11 17:03:48]   ✓ Output matches expected: 2464
+[2025-05-11 17:03:48] Day 04 Part Part 1 (Clojure): CORRECT - Time: 0.765s
+[2025-05-11 17:03:48] Checking Clojure solution for Day 04 Part 2
+[2025-05-11 17:03:48]   → Running Clojure script: output_04b.clj
+[2025-05-11 17:03:49]   ✓ Output matches expected: 1982
+[2025-05-11 17:03:49] Day 04 Part Part 2 (Clojure): CORRECT - Time: 0.625s
+[2025-05-11 17:03:49] 
+Processing Day 05 [20.0%]
+[2025-05-11 17:03:49] Checking C solution for Day 05 Part 1
+[2025-05-11 17:03:49]   → Compiling C program: output_05a.c
+[2025-05-11 17:03:49]   → Running C program
+[2025-05-11 17:03:49]   ✗ Output does not match expected:
+[2025-05-11 17:03:49]     - Got:      1486
+[2025-05-11 17:03:49]     - Expected: 5391
+[2025-05-11 17:03:49] Day 05 Part Part 1 (C): INCORRECT - Time: 0.114s
+[2025-05-11 17:03:49] Checking C solution for Day 05 Part 2
+[2025-05-11 17:03:49]   → Compiling C program: output_05b.c
+[2025-05-11 17:03:49]   → Running C program
+[2025-05-11 17:03:49]   ✗ Output does not match expected:
+[2025-05-11 17:03:49]     - Got:      10272
+[2025-05-11 17:03:49]     - Expected: 6142
+[2025-05-11 17:03:49] Day 05 Part Part 2 (C): INCORRECT - Time: 0.065s
+[2025-05-11 17:03:49] Checking Python solution for Day 05 Part 1
+[2025-05-11 17:03:49]   → Running Python script: output_05a.py
+[2025-05-11 17:03:49]   ✓ Output matches expected: 5391
+[2025-05-11 17:03:49] Day 05 Part Part 1 (Python): CORRECT - Time: 0.013s
+[2025-05-11 17:03:49] Checking Python solution for Day 05 Part 2
+[2025-05-11 17:03:49]   → Running Python script: output_05b.py
+[2025-05-11 17:03:49]   ✗ Program produced no output
+[2025-05-11 17:03:49] Day 05 Part Part 2 (Python): EMPTY_OUTPUT - Time: 0.008s
+[2025-05-11 17:03:49] Checking Clojure solution for Day 05 Part 1
+[2025-05-11 17:03:49]   → Running Clojure script: output_05a.clj
+[2025-05-11 17:03:50]   ✓ Output matches expected: 5391
+[2025-05-11 17:03:50] Day 05 Part Part 1 (Clojure): CORRECT - Time: 0.614s
+[2025-05-11 17:03:50] Checking Clojure solution for Day 05 Part 2
+[2025-05-11 17:03:50]   → Running Clojure script: output_05b.clj
+[2025-05-11 17:03:50]   ✓ Output matches expected: 6142
+[2025-05-11 17:03:50] Day 05 Part Part 2 (Clojure): CORRECT - Time: 0.740s
+[2025-05-11 17:03:50] 
+Processing Day 06 [24.0%]
+[2025-05-11 17:03:50] Checking C solution for Day 06 Part 1
+[2025-05-11 17:03:50]   → Compiling C program: output_06a.c
+[2025-05-11 17:03:51]   → Running C program
+[2025-05-11 17:03:51]   ✓ Output matches expected: 5312
+[2025-05-11 17:03:51] Day 06 Part Part 1 (C): CORRECT - Time: 0.506s
+[2025-05-11 17:03:51] Checking C solution for Day 06 Part 2
+[2025-05-11 17:03:51]   → Compiling C program: output_06b.c
+[2025-05-11 17:03:51]   → Running C program
+[2025-05-11 17:03:52]   ✗ Output does not match expected:
+[2025-05-11 17:03:52]     - Got:      16105
+[2025-05-11 17:03:52]     - Expected: 1748
+[2025-05-11 17:03:52] Day 06 Part Part 2 (C): INCORRECT - Time: 1.479s
+[2025-05-11 17:03:52] Checking Python solution for Day 06 Part 1
+[2025-05-11 17:03:52]   → Running Python script: output_06a.py
+[2025-05-11 17:03:52]   ✓ Output matches expected: 5312
+[2025-05-11 17:03:52] Day 06 Part Part 1 (Python): CORRECT - Time: 0.009s
+[2025-05-11 17:03:52] Checking Python solution for Day 06 Part 2
+[2025-05-11 17:03:52]   → Running Python script: output_06b.py
+[2025-05-11 17:04:13]   ✓ Output matches expected: 1748
+[2025-05-11 17:04:13] Day 06 Part Part 2 (Python): CORRECT - Time: 20.411s
+[2025-05-11 17:04:13] Checking Clojure solution for Day 06 Part 1
+[2025-05-11 17:04:13]   → Running Clojure script: output_06a.clj
+[2025-05-11 17:04:13]   ✓ Output matches expected: 5312
+[2025-05-11 17:04:13] Day 06 Part Part 1 (Clojure): CORRECT - Time: 0.625s
+[2025-05-11 17:04:13] Checking Clojure solution for Day 06 Part 2
+[2025-05-11 17:04:13]   → Running Clojure script: output_06b.clj
+[2025-05-11 17:05:00]   ✗ Output does not match expected:
+[2025-05-11 17:05:00]     - Got:      16105
+[2025-05-11 17:05:00]     - Expected: 1748
+[2025-05-11 17:05:00] Day 06 Part Part 2 (Clojure): INCORRECT - Time: 46.411s
+[2025-05-11 17:05:00] 
+Processing Day 07 [28.0%]
+[2025-05-11 17:05:00] Checking C solution for Day 07 Part 1
+[2025-05-11 17:05:00]   → Compiling C program: output_07a.c
+[2025-05-11 17:05:00]   → Running C program
+[2025-05-11 17:05:00]   ✗ Output does not match expected:
+[2025-05-11 17:05:00]     - Got:      0
+[2025-05-11 17:05:00]     - Expected: 3351424677624
+[2025-05-11 17:05:00] Day 07 Part Part 1 (C): INCORRECT - Time: 0.305s
+[2025-05-11 17:05:00] Checking C solution for Day 07 Part 2
+[2025-05-11 17:05:00]   → Compiling C program: output_07b.c
+[2025-05-11 17:05:00]   → Running C program
+[2025-05-11 17:05:00]   ✗ Output does not match expected:
+[2025-05-11 17:05:00]     - Got:      0
+[2025-05-11 17:05:00]     - Expected: 204976636995111
+[2025-05-11 17:05:00] Day 07 Part Part 2 (C): INCORRECT - Time: 0.263s
+[2025-05-11 17:05:00] Checking Python solution for Day 07 Part 1
+[2025-05-11 17:05:00]   → Running Python script: output_07a.py
+[2025-05-11 17:05:01]   ✓ Output matches expected: 3351424677624
+[2025-05-11 17:05:01] Day 07 Part Part 1 (Python): CORRECT - Time: 0.106s
+[2025-05-11 17:05:01] Checking Python solution for Day 07 Part 2
+[2025-05-11 17:05:01]   → Running Python script: output_07b.py
+[2025-05-11 17:05:12]   ✓ Output matches expected: 204976636995111
+[2025-05-11 17:05:12] Day 07 Part Part 2 (Python): CORRECT - Time: 11.473s
+[2025-05-11 17:05:12] Checking Clojure solution for Day 07 Part 1
+[2025-05-11 17:05:12]   → Running Clojure script: output_07a.clj
+[2025-05-11 17:05:13]   ✓ Output matches expected: 3351424677624
+[2025-05-11 17:05:13] Day 07 Part Part 1 (Clojure): CORRECT - Time: 1.126s
+[2025-05-11 17:05:13] Checking Clojure solution for Day 07 Part 2
+[2025-05-11 17:05:13]   → Running Clojure script: output_07b.clj
+[2025-05-11 17:05:35]   ✓ Output matches expected: 204976636995111
+[2025-05-11 17:05:35] Day 07 Part Part 2 (Clojure): CORRECT - Time: 22.144s
+[2025-05-11 17:05:35] 
+Processing Day 08 [32.0%]
+[2025-05-11 17:05:35] Checking C solution for Day 08 Part 1
+[2025-05-11 17:05:35]   → Compiling C program: output_08a.c
+[2025-05-11 17:05:35]   → Running C program
+[2025-05-11 17:05:35]   ✗ Output does not match expected:
+[2025-05-11 17:05:35]     - Got:      11
+[2025-05-11 17:05:35]     - Expected: 367
+[2025-05-11 17:05:35] Day 08 Part Part 1 (C): INCORRECT - Time: 0.178s
+[2025-05-11 17:05:35] Checking C solution for Day 08 Part 2
+[2025-05-11 17:05:35]   → Compiling C program: output_08b.c
+[2025-05-11 17:05:36]   → Running C program
+[2025-05-11 17:05:36]   ✗ Output does not match expected:
+[2025-05-11 17:05:36]     - Got:      0
+[2025-05-11 17:05:36]     - Expected: 1285
+[2025-05-11 17:05:36] Day 08 Part Part 2 (C): INCORRECT - Time: 0.373s
+[2025-05-11 17:05:36] Checking Python solution for Day 08 Part 1
+[2025-05-11 17:05:36]   → Running Python script: output_08a.py
+[2025-05-11 17:05:36]   ✓ Output matches expected: 367
+[2025-05-11 17:05:36] Day 08 Part Part 1 (Python): CORRECT - Time: 0.007s
+[2025-05-11 17:05:36] Checking Python solution for Day 08 Part 2
+[2025-05-11 17:05:36]   → Running Python script: output_08b.py
+[2025-05-11 17:05:36]   ✓ Output matches expected: 1285
+[2025-05-11 17:05:36] Day 08 Part Part 2 (Python): CORRECT - Time: 0.007s
+[2025-05-11 17:05:36] Checking Clojure solution for Day 08 Part 1
+[2025-05-11 17:05:36]   → Running Clojure script: output_08a.clj
+[2025-05-11 17:05:36]   ✗ Output does not match expected:
+[2025-05-11 17:05:36]     - Got:      0
+[2025-05-11 17:05:36]     - Expected: 367
+[2025-05-11 17:05:36] Day 08 Part Part 1 (Clojure): INCORRECT - Time: 0.604s
+[2025-05-11 17:05:36] Checking Clojure solution for Day 08 Part 2
+[2025-05-11 17:05:36]   → Running Clojure script: output_08b.clj
+[2025-05-11 17:05:37]   ✗ Output does not match expected:
+[2025-05-11 17:05:37]     - Got:      231
+[2025-05-11 17:05:37]     - Expected: 1285
+[2025-05-11 17:05:37] Day 08 Part Part 2 (Clojure): INCORRECT - Time: 0.628s
+[2025-05-11 17:05:37] 
+Processing Day 09 [36.0%]
+[2025-05-11 17:05:37] Checking C solution for Day 09 Part 1
+[2025-05-11 17:05:37]   → Compiling C program: output_09a.c
+[2025-05-11 17:05:37]   → Running C program
+[2025-05-11 17:06:32]   ✗ Execution timed out (>60s)
+[2025-05-11 17:06:32] Day 09 Part Part 1 (C): TIMEOUT - Time: 60.000s
+[2025-05-11 17:06:32] Checking C solution for Day 09 Part 2
+[2025-05-11 17:06:32]   → Compiling C program: output_09b.c
+[2025-05-11 17:06:33]   → Running C program
+[2025-05-11 17:06:33]   ✗ Program produced no output
+[2025-05-11 17:06:33] Day 09 Part Part 2 (C): EMPTY_OUTPUT - Time: 0.319s
+[2025-05-11 17:06:33] Checking Python solution for Day 09 Part 1
+[2025-05-11 17:06:33]   → Running Python script: output_09a.py
+[2025-05-11 17:07:04]   ✗ Output does not match expected:
+[2025-05-11 17:07:04]     - Got:      8265157818076
+[2025-05-11 17:07:04]     - Expected: 6279058075753
+[2025-05-11 17:07:04] Day 09 Part Part 1 (Python): INCORRECT - Time: 30.828s
+[2025-05-11 17:07:04] Checking Python solution for Day 09 Part 2
+[2025-05-11 17:07:04]   → Running Python script: output_09b.py
+[2025-05-11 17:07:22]   ✓ Output matches expected: 6301361958738
+[2025-05-11 17:07:22] Day 09 Part Part 2 (Python): CORRECT - Time: 18.265s
+[2025-05-11 17:07:22] Checking Clojure solution for Day 09 Part 1
+[2025-05-11 17:07:22]   → Running Clojure script: output_09a.clj
+[2025-05-11 17:07:23]   ✗ Runtime error: Syntax error reading source at (output_09a.clj:52:1). EOF while reading, starting at line 17  Full report at: /tmp/clojure-13908471347730226835.edn
+[2025-05-11 17:07:23] Day 09 Part Part 1 (Clojure): ERROR - Time: 0.669s
+[2025-05-11 17:07:23] Checking Clojure solution for Day 09 Part 2
+[2025-05-11 17:07:23]   → Running Clojure script: output_09b.clj
+[2025-05-11 17:07:23]   ✗ Runtime error: Execution error (NullPointerException) at output-09b/parse-disk (output_09b.clj:14). Cannot invoke "java.lang.Number.doubleValue()" because "x" is null  Full report at: /tmp/clojure-3457412479644749.edn
+[2025-05-11 17:07:23] Day 09 Part Part 2 (Clojure): ERROR - Time: 0.755s
+[2025-05-11 17:07:23] 
+Processing Day 10 [40.0%]
+[2025-05-11 17:07:23] Checking C solution for Day 10 Part 1
+[2025-05-11 17:07:23]   → Compiling C program: output_10a.c
+[2025-05-11 17:07:23]   → Running C program
+[2025-05-11 17:07:23]   ✗ Output does not match expected:
+[2025-05-11 17:07:23]     - Got:      129
+[2025-05-11 17:07:23]     - Expected: 459
+[2025-05-11 17:07:23] Day 10 Part Part 1 (C): INCORRECT - Time: 0.132s
+[2025-05-11 17:07:23] Checking C solution for Day 10 Part 2
+[2025-05-11 17:07:23]   → Compiling C program: output_10b.c
+[2025-05-11 17:07:24]   → Running C program
+[2025-05-11 17:07:24]   ✗ Output does not match expected:
+[2025-05-11 17:07:24]     - Got:      1451
+[2025-05-11 17:07:24]     - Expected: 1034
+[2025-05-11 17:07:24] Day 10 Part Part 2 (C): INCORRECT - Time: 0.211s
+[2025-05-11 17:07:24] Checking Python solution for Day 10 Part 1
+[2025-05-11 17:07:24]   → Running Python script: output_10a.py
+[2025-05-11 17:07:24]   ✓ Output matches expected: 459
+[2025-05-11 17:07:24] Day 10 Part Part 1 (Python): CORRECT - Time: 0.010s
+[2025-05-11 17:07:24] Checking Python solution for Day 10 Part 2
+[2025-05-11 17:07:24]   → Running Python script: output_10b.py
+[2025-05-11 17:07:24]   ✓ Output matches expected: 1034
+[2025-05-11 17:07:24] Day 10 Part Part 2 (Python): CORRECT - Time: 0.010s
+[2025-05-11 17:07:24] Checking Clojure solution for Day 10 Part 1
+[2025-05-11 17:07:24]   → Running Clojure script: output_10a.clj
+[2025-05-11 17:07:24]   ✓ Output matches expected: 459
+[2025-05-11 17:07:24] Day 10 Part Part 1 (Clojure): CORRECT - Time: 0.651s
+[2025-05-11 17:07:24] Checking Clojure solution for Day 10 Part 2
+[2025-05-11 17:07:24]   → Running Clojure script: output_10b.clj
+[2025-05-11 17:07:25]   ✓ Output matches expected: 1034
+[2025-05-11 17:07:25] Day 10 Part Part 2 (Clojure): CORRECT - Time: 0.636s
+[2025-05-11 17:07:25] 
+Processing Day 11 [44.0%]
+[2025-05-11 17:07:25] Checking C solution for Day 11 Part 1
+[2025-05-11 17:07:25]   → Compiling C program: output_11a.c
+[2025-05-11 17:07:25]   → Running C program
+[2025-05-11 17:07:25]   ✗ Program produced an error: *** stack smashing detected ***: terminated
+[2025-05-11 17:07:25] Day 11 Part Part 1 (C): RUNTIME_ERROR - Time: 0.312s
+[2025-05-11 17:07:25] Checking C solution for Day 11 Part 2
+[2025-05-11 17:07:25]   → Compiling C program: output_11b.c
+[2025-05-11 17:07:25]   → Running C program
+[2025-05-11 17:07:25]   ✗ Program produced an error: *** stack smashing detected ***: terminated
+[2025-05-11 17:07:25] Day 11 Part Part 2 (C): RUNTIME_ERROR - Time: 0.117s
+[2025-05-11 17:07:25] Checking Python solution for Day 11 Part 1
+[2025-05-11 17:07:25]   → Running Python script: output_11a.py
+[2025-05-11 17:07:25]   ✓ Output matches expected: 193899
+[2025-05-11 17:07:25] Day 11 Part Part 1 (Python): CORRECT - Time: 0.079s
+[2025-05-11 17:07:25] Checking Python solution for Day 11 Part 2
+[2025-05-11 17:07:25]   → Running Python script: output_11b.py
+[2025-05-11 17:07:26]   ✓ Output matches expected: 229682160383225
+[2025-05-11 17:07:26] Day 11 Part Part 2 (Python): CORRECT - Time: 0.065s
+[2025-05-11 17:07:26] Checking Clojure solution for Day 11 Part 1
+[2025-05-11 17:07:26]   → Running Clojure script: output_11a.clj
+[2025-05-11 17:07:26]   ✗ Runtime error: Execution error (ClassCastException) at output-11a/parse-input (output_11a.clj:6). class java.lang.String cannot be cast to class java.util.regex.Pattern (java.lang.String and java.util.regex.Pattern are in module java.base of loader 'bootstrap')  Full report at: /tmp/clojure-3795884996549288990.edn
+[2025-05-11 17:07:26] Day 11 Part Part 1 (Clojure): ERROR - Time: 0.645s
+[2025-05-11 17:07:26] Checking Clojure solution for Day 11 Part 2
+[2025-05-11 17:07:26]   → Running Clojure script: output_11b.clj
+[2025-05-11 17:07:27]   ✗ Runtime error: Execution error (ClassCastException) at output-11b/parse-input (output_11b.clj:6). class java.lang.String cannot be cast to class java.util.regex.Pattern (java.lang.String and java.util.regex.Pattern are in module java.base of loader 'bootstrap')  Full report at: /tmp/clojure-14608010418036293859.edn
+[2025-05-11 17:07:27] Day 11 Part Part 2 (Clojure): ERROR - Time: 0.663s
+[2025-05-11 17:07:27] 
+Processing Day 12 [48.0%]
+[2025-05-11 17:07:27] Checking C solution for Day 12 Part 1
+[2025-05-11 17:07:27]   → Compiling C program: output_12a.c
+[2025-05-11 17:07:27]   → Running C program
+[2025-05-11 17:07:27]   ✗ Program produced no output
+[2025-05-11 17:07:27] Day 12 Part Part 1 (C): EMPTY_OUTPUT - Time: 0.153s
+[2025-05-11 17:07:27] Checking C solution for Day 12 Part 2
+[2025-05-11 17:07:27]   → Compiling C program: output_12b.c
+[2025-05-11 17:07:27]   → Running C program
+[2025-05-11 17:07:27]   ✗ Program produced no output
+[2025-05-11 17:07:27] Day 12 Part Part 2 (C): EMPTY_OUTPUT - Time: 0.128s
+[2025-05-11 17:07:27] Checking Python solution for Day 12 Part 1
+[2025-05-11 17:07:27]   → Running Python script: output_12a.py
+[2025-05-11 17:07:27]   ✓ Output matches expected: 1449902
+[2025-05-11 17:07:27] Day 12 Part Part 1 (Python): CORRECT - Time: 0.021s
+[2025-05-11 17:07:27] Checking Python solution for Day 12 Part 2
+[2025-05-11 17:07:27]   → Running Python script: output_12b.py
+[2025-05-11 17:07:27]   ✗ Output does not match expected:
+[2025-05-11 17:07:27]     - Got:      937813
+[2025-05-11 17:07:27]     - Expected: 908042
+[2025-05-11 17:07:27] Day 12 Part Part 2 (Python): INCORRECT - Time: 0.204s
+[2025-05-11 17:07:27] Checking Clojure solution for Day 12 Part 1
+[2025-05-11 17:07:27]   → Running Clojure script: output_12a.clj
+[2025-05-11 17:07:28]   ✗ Runtime error: Syntax error reading source at (output_12a.clj:56:1). EOF while reading, starting at line 37  Full report at: /tmp/clojure-12374129587369833697.edn
+[2025-05-11 17:07:28] Day 12 Part Part 1 (Clojure): ERROR - Time: 0.664s
+[2025-05-11 17:07:28] Checking Clojure solution for Day 12 Part 2
+[2025-05-11 17:07:28]   → Running Clojure script: output_12b.clj
+[2025-05-11 17:07:29]   ✗ Runtime error: Syntax error reading source at (output_12b.clj:70:1). EOF while reading, starting at line 51  Full report at: /tmp/clojure-7052213048344144931.edn
+[2025-05-11 17:07:29] Day 12 Part Part 2 (Clojure): ERROR - Time: 0.679s
+[2025-05-11 17:07:29] 
+Processing Day 13 [52.0%]
+[2025-05-11 17:07:29] Checking C solution for Day 13 Part 1
+[2025-05-11 17:07:29]   → Compiling C program: output_13a.c
+[2025-05-11 17:07:29]   → Running C program
+[2025-05-11 17:07:29]   ✗ Program produced an error: *** stack smashing detected ***: terminated
+[2025-05-11 17:07:29] Day 13 Part Part 1 (C): RUNTIME_ERROR - Time: 0.284s
+[2025-05-11 17:07:29] Checking C solution for Day 13 Part 2
+[2025-05-11 17:07:29]   → Compiling C program: output_13b.c
+[2025-05-11 17:07:29]   → Running C program
+[2025-05-11 17:07:29]   ✗ Program produced no output
+[2025-05-11 17:07:29] Day 13 Part Part 2 (C): EMPTY_OUTPUT - Time: 0.118s
+[2025-05-11 17:07:29] Checking Python solution for Day 13 Part 1
+[2025-05-11 17:07:29]   → Running Python script: output_13a.py
+[2025-05-11 17:07:29]   ✓ Output matches expected: 29517
+[2025-05-11 17:07:29] Day 13 Part Part 1 (Python): CORRECT - Time: 0.173s
+[2025-05-11 17:07:29] Checking Python solution for Day 13 Part 2
+[2025-05-11 17:07:29]   → Running Python script: output_13b.py
+[2025-05-11 17:08:15]   ✗ Output does not match expected:
+[2025-05-11 17:08:15]     - Got:      104051533658296
+[2025-05-11 17:08:15]     - Expected: 103570327981381
+[2025-05-11 17:08:15] Day 13 Part Part 2 (Python): INCORRECT - Time: 45.283s
+[2025-05-11 17:08:15] Checking Clojure solution for Day 13 Part 1
+[2025-05-11 17:08:15]   → Running Clojure script: output_13a.clj
+[2025-05-11 17:08:15]   ✗ Runtime error: Syntax error reading source at (output_13a.clj:47:1). EOF while reading, starting at line 16  Full report at: /tmp/clojure-17833888957582570954.edn
+[2025-05-11 17:08:15] Day 13 Part Part 1 (Clojure): ERROR - Time: 0.660s
+[2025-05-11 17:08:15] Checking Clojure solution for Day 13 Part 2
+[2025-05-11 17:08:15]   → Running Clojure script: output_13b.clj
+[2025-05-11 17:08:16]   ✗ Runtime error: Execution error (NullPointerException) at output-13b/parse-machine (output_13b.clj:9). Cannot invoke "Object.getClass()" because "x" is null  Full report at: /tmp/clojure-18404285674137850662.edn
+[2025-05-11 17:08:16] Day 13 Part Part 2 (Clojure): ERROR - Time: 0.694s
+[2025-05-11 17:08:16] 
+Processing Day 14 [56.0%]
+[2025-05-11 17:08:16] Checking C solution for Day 14 Part 1
+[2025-05-11 17:08:16]   → Compiling C program: output_14a.c
+[2025-05-11 17:08:16]   → Running C program
+[2025-05-11 17:08:16]   ✗ Output does not match expected:
+[2025-05-11 17:08:16]     - Got:      436800
+[2025-05-11 17:08:16]     - Expected: 230461440
+[2025-05-11 17:08:16] Day 14 Part Part 1 (C): INCORRECT - Time: 0.254s
+[2025-05-11 17:08:16] Checking C solution for Day 14 Part 2
+[2025-05-11 17:08:16]   → Compiling C program: output_14b.c
+[2025-05-11 17:08:16]   → Running C program
+[2025-05-11 17:08:16]   ✗ Output does not match expected:
+[2025-05-11 17:08:16]     - Got:      0
+[2025-05-11 17:08:16]     - Expected: 6668
+[2025-05-11 17:08:16] Day 14 Part Part 2 (C): INCORRECT - Time: 0.325s
+[2025-05-11 17:08:16] Checking Python solution for Day 14 Part 1
+[2025-05-11 17:08:16]   → Running Python script: output_14a.py
+[2025-05-11 17:08:16]   ✓ Output matches expected: 230461440
+[2025-05-11 17:08:16] Day 14 Part Part 1 (Python): CORRECT - Time: 0.008s
+[2025-05-11 17:08:16] Checking Python solution for Day 14 Part 2
+[2025-05-11 17:08:16]   → Running Python script: output_14b.py
+[2025-05-11 17:08:16]   ✗ Output does not match expected:
+[2025-05-11 17:08:16]     - Got:      0
+[2025-05-11 17:08:16]     - Expected: 6668
+[2025-05-11 17:08:16] Day 14 Part Part 2 (Python): INCORRECT - Time: 0.008s
+[2025-05-11 17:08:16] Checking Clojure solution for Day 14 Part 1
+[2025-05-11 17:08:16]   → Running Clojure script: output_14a.clj
+[2025-05-11 17:08:17]   ✗ Runtime error: WARNING: time already refers to: #'clojure.core/time in namespace: output_14a, being replaced by: #'output_14a/time
+[2025-05-11 17:08:17] Day 14 Part Part 1 (Clojure): ERROR - Time: 0.571s
+[2025-05-11 17:08:17] Checking Clojure solution for Day 14 Part 2
+[2025-05-11 17:08:17]   → Running Clojure script: output_14b.clj
+[2025-05-11 17:08:18]   ✗ Output does not match expected:
+[2025-05-11 17:08:18]     - Got:      0
+[2025-05-11 17:08:18]     - Expected: 6668
+[2025-05-11 17:08:18] Day 14 Part Part 2 (Clojure): INCORRECT - Time: 0.601s
+[2025-05-11 17:08:18] 
+Processing Day 15 [60.0%]
+[2025-05-11 17:08:18] Checking C solution for Day 15 Part 1
+[2025-05-11 17:08:18]   → Compiling C program: output_15a.c
+[2025-05-11 17:08:18]   → Running C program
+[2025-05-11 17:09:16]   ✗ Execution timed out (>60s)
+[2025-05-11 17:09:16] Day 15 Part Part 1 (C): TIMEOUT - Time: 60.000s
+[2025-05-11 17:09:16] Checking C solution for Day 15 Part 2
+[2025-05-11 17:09:16]   → Compiling C program: output_15b.c
+[2025-05-11 17:09:16]   → Running C program
+[2025-05-11 17:10:15]   ✗ Execution timed out (>60s)
+[2025-05-11 17:10:15] Day 15 Part Part 2 (C): TIMEOUT - Time: 60.000s
+[2025-05-11 17:10:15] Checking Python solution for Day 15 Part 1
+[2025-05-11 17:10:15]   → Running Python script: output_15a.py
+[2025-05-11 17:10:15]   ✗ Output does not match expected:
+[2025-05-11 17:10:15]     - Got:      1450729
+[2025-05-11 17:10:15]     - Expected: 1478649
+[2025-05-11 17:10:15] Day 15 Part Part 1 (Python): INCORRECT - Time: 0.009s
+[2025-05-11 17:10:15] Checking Python solution for Day 15 Part 2
+[2025-05-11 17:10:15]   → Running Python script: output_15b.py
+[2025-05-11 17:10:15]   ✗ Output does not match expected:
+[2025-05-11 17:10:15]     - Got:      1467186
+[2025-05-11 17:10:15]     - Expected: 1495455
+[2025-05-11 17:10:15] Day 15 Part Part 2 (Python): INCORRECT - Time: 0.009s
+[2025-05-11 17:10:15] Checking Clojure solution for Day 15 Part 1
+[2025-05-11 17:10:15]   → Running Clojure script: output_15a.clj
+[2025-05-11 17:10:16]   ✗ Output does not match expected:
+[2025-05-11 17:10:16]     - Got:      1452316
+[2025-05-11 17:10:16]     - Expected: 1478649
+[2025-05-11 17:10:16] Day 15 Part Part 1 (Clojure): INCORRECT - Time: 0.662s
+[2025-05-11 17:10:16] Checking Clojure solution for Day 15 Part 2
+[2025-05-11 17:10:16]   → Running Clojure script: output_15b.clj
+[2025-05-11 17:10:16]   ✗ Output does not match expected:
+[2025-05-11 17:10:16]     - Got:      0
+[2025-05-11 17:10:16]     - Expected: 1495455
+[2025-05-11 17:10:16] Day 15 Part Part 2 (Clojure): INCORRECT - Time: 0.640s
+[2025-05-11 17:10:16] 
+Processing Day 16 [64.0%]
+[2025-05-11 17:10:16] Checking C solution for Day 16 Part 1
+[2025-05-11 17:10:16]   → Compiling C program: output_16a.c
+[2025-05-11 17:10:16]   → Running C program
+[2025-05-11 17:10:16]   ✗ Program produced no output
+[2025-05-11 17:10:16] Day 16 Part Part 1 (C): EMPTY_OUTPUT - Time: 0.238s
+[2025-05-11 17:10:16] Checking C solution for Day 16 Part 2
+[2025-05-11 17:10:16]   → Compiling C program: output_16b.c
+[2025-05-11 17:10:17]   → Running C program
+[2025-05-11 17:10:17]   ✗ Program produced no output
+[2025-05-11 17:10:17] Day 16 Part Part 2 (C): EMPTY_OUTPUT - Time: 0.312s
+[2025-05-11 17:10:17] Checking Python solution for Day 16 Part 1
+[2025-05-11 17:10:17]   → Running Python script: output_16a.py
+[2025-05-11 17:10:17]   ✓ Output matches expected: 99488
+[2025-05-11 17:10:17] Day 16 Part Part 1 (Python): CORRECT - Time: 0.043s
+[2025-05-11 17:10:17] Checking Python solution for Day 16 Part 2
+[2025-05-11 17:10:17]   → Running Python script: output_16b.py
+[2025-05-11 17:10:17]   ✗ Output does not match expected:
+[2025-05-11 17:10:17]     - Got:      5
+[2025-05-11 17:10:17]     - Expected: 516
+[2025-05-11 17:10:17] Day 16 Part Part 2 (Python): INCORRECT - Time: 0.063s
+[2025-05-11 17:10:17] Checking Clojure solution for Day 16 Part 1
+[2025-05-11 17:10:17]   → Running Clojure script: output_16a.clj
+[2025-05-11 17:10:18]   ✗ Runtime error: Syntax error reading source at (output_16a.clj:68:1). EOF while reading, starting at line 31  Full report at: /tmp/clojure-5116417201696966057.edn
+[2025-05-11 17:10:18] Day 16 Part Part 1 (Clojure): ERROR - Time: 0.775s
+[2025-05-11 17:10:18] Checking Clojure solution for Day 16 Part 2
+[2025-05-11 17:10:18]   → Running Clojure script: output_16b.clj
+[2025-05-11 17:10:19]   ✗ Runtime error: Execution error (ClassCastException) at output-16b/collect-paths$iter$fn (output_16b.clj:64). class clojure.lang.PersistentHashMap cannot be cast to class java.util.Map$Entry (clojure.lang.PersistentHashMap is in unnamed module of loader 'app'; java.util.Map$Entry is in module java.base of loader 'bootstrap')  Full report at: /tmp/clojure-6140002571216469868.edn
+[2025-05-11 17:10:19] Day 16 Part Part 2 (Clojure): ERROR - Time: 0.994s
+[2025-05-11 17:10:19] 
+Processing Day 17 [68.0%]
+[2025-05-11 17:10:19] Checking C solution for Day 17 Part 1
+[2025-05-11 17:10:19]   → Compiling C program: output_17a.c
+[2025-05-11 17:10:19]   → Running C program
+[2025-05-11 17:11:18]   ✗ Execution timed out (>60s)
+[2025-05-11 17:11:18] Day 17 Part Part 1 (C): TIMEOUT - Time: 60.000s
+[2025-05-11 17:11:18] Checking C solution for Day 17 Part 2
+[2025-05-11 17:11:18]   → Compiling C program: output_17b.c
+[2025-05-11 17:11:18]   → Running C program
+[2025-05-11 17:12:16]   ✗ Execution timed out (>60s)
+[2025-05-11 17:12:16] Day 17 Part Part 2 (C): TIMEOUT - Time: 60.000s
+[2025-05-11 17:12:16] Checking Python solution for Day 17 Part 1
+[2025-05-11 17:12:16]   → Running Python script: output_17a.py
+[2025-05-11 17:12:16]   ✓ Output matches expected: 2,7,6,5,6,0,2,3,1
+[2025-05-11 17:12:16] Day 17 Part Part 1 (Python): CORRECT - Time: 0.008s
+[2025-05-11 17:12:16] Checking Python solution for Day 17 Part 2
+[2025-05-11 17:12:16]   → Running Python script: output_17b.py
+[2025-05-11 17:13:16]   ✗ Execution timed out (>60s)
+[2025-05-11 17:13:16] Day 17 Part Part 2 (Python): TIMEOUT - Time: 60.000s
+[2025-05-11 17:13:16] Checking Clojure solution for Day 17 Part 1
+[2025-05-11 17:13:16]   → Running Clojure script: output_17a.clj
+[2025-05-11 17:13:17]   ✗ Runtime error: Execution error (NumberFormatException) at java.lang.NumberFormatException/forInputString (NumberFormatException.java:67). For input string: "Program: 2"  Full report at: /tmp/clojure-17112980721258408326.edn
+[2025-05-11 17:13:17] Day 17 Part Part 1 (Clojure): ERROR - Time: 0.709s
+[2025-05-11 17:13:17] Checking Clojure solution for Day 17 Part 2
+[2025-05-11 17:13:17]   → Running Clojure script: output_17b.clj
+[2025-05-11 17:13:17]   ✗ Runtime error: Execution error (NumberFormatException) at java.lang.NumberFormatException/forInputString (NumberFormatException.java:67). For input string: "Program: 2"  Full report at: /tmp/clojure-17244143996918274758.edn
+[2025-05-11 17:13:17] Day 17 Part Part 2 (Clojure): ERROR - Time: 0.664s
+[2025-05-11 17:13:17] 
+Processing Day 18 [72.0%]
+[2025-05-11 17:13:17] Checking C solution for Day 18 Part 1
+[2025-05-11 17:13:17]   → Compiling C program: output_18a.c
+[2025-05-11 17:13:17]   → Running C program
+[2025-05-11 17:13:17]   ✗ Program produced no output
+[2025-05-11 17:13:17] Day 18 Part Part 1 (C): EMPTY_OUTPUT - Time: 0.163s
+[2025-05-11 17:13:17] Checking C solution for Day 18 Part 2
+[2025-05-11 17:13:17]   → Compiling C program: output_18b.c
+[2025-05-11 17:13:18]   → Running C program
+[2025-05-11 17:13:18]   ✗ Program produced no output
+[2025-05-11 17:13:18] Day 18 Part Part 2 (C): EMPTY_OUTPUT - Time: 0.341s
+[2025-05-11 17:13:18] Checking Python solution for Day 18 Part 1
+[2025-05-11 17:13:18]   → Running Python script: output_18a.py
+[2025-05-11 17:13:18]   ✓ Output matches expected: 334
+[2025-05-11 17:13:18] Day 18 Part Part 1 (Python): CORRECT - Time: 0.011s
+[2025-05-11 17:13:18] Checking Python solution for Day 18 Part 2
+[2025-05-11 17:13:18]   → Running Python script: output_18b.py
+[2025-05-11 17:13:23]   ✓ Output matches expected: 20,12
+[2025-05-11 17:13:23] Day 18 Part Part 2 (Python): CORRECT - Time: 4.804s
+[2025-05-11 17:13:23] Checking Clojure solution for Day 18 Part 1
+[2025-05-11 17:13:23]   → Running Clojure script: output_18a.clj
+[2025-05-11 17:13:23]   ✓ Output matches expected: 334
+[2025-05-11 17:13:23] Day 18 Part Part 1 (Clojure): CORRECT - Time: 0.722s
+[2025-05-11 17:13:23] Checking Clojure solution for Day 18 Part 2
+[2025-05-11 17:13:23]   → Running Clojure script: output_18b.clj
+[2025-05-11 17:13:47]   ✓ Output matches expected: 20,12
+[2025-05-11 17:13:47] Day 18 Part Part 2 (Clojure): CORRECT - Time: 24.084s
+[2025-05-11 17:13:47] 
+Processing Day 19 [76.0%]
+[2025-05-11 17:13:47] Checking C solution for Day 19 Part 1
+[2025-05-11 17:13:47]   → Compiling C program: output_19a.c
+[2025-05-11 17:13:48]   → Running C program
+[2025-05-11 17:13:48]   ✗ Program produced no output
+[2025-05-11 17:13:48] Day 19 Part Part 1 (C): EMPTY_OUTPUT - Time: 0.140s
+[2025-05-11 17:13:48] Checking C solution for Day 19 Part 2
+[2025-05-11 17:13:48]   → Compiling C program: output_19b.c
+[2025-05-11 17:13:48]   → Running C program
+[2025-05-11 17:13:48]   ✗ Program produced no output
+[2025-05-11 17:13:48] Day 19 Part Part 2 (C): EMPTY_OUTPUT - Time: 0.147s
+[2025-05-11 17:13:48] Checking Python solution for Day 19 Part 1
+[2025-05-11 17:13:48]   → Running Python script: output_19a.py
+[2025-05-11 17:13:48]   ✓ Output matches expected: 324
+[2025-05-11 17:13:48] Day 19 Part Part 1 (Python): CORRECT - Time: 0.109s
+[2025-05-11 17:13:48] Checking Python solution for Day 19 Part 2
+[2025-05-11 17:13:48]   → Running Python script: output_19b.py
+[2025-05-11 17:13:48]   ✓ Output matches expected: 575227823167869
+[2025-05-11 17:13:48] Day 19 Part Part 2 (Python): CORRECT - Time: 0.344s
+[2025-05-11 17:13:48] Checking Clojure solution for Day 19 Part 1
+[2025-05-11 17:13:48]   → Running Clojure script: output_19a.clj
+[2025-05-11 17:13:45]   ✓ Output matches expected: 324
+[2025-05-11 17:13:45] Day 19 Part Part 1 (Clojure): CORRECT - Time: -3.040s
+[2025-05-11 17:13:45] Checking Clojure solution for Day 19 Part 2
+[2025-05-11 17:13:45]   → Running Clojure script: output_19b.clj
+[2025-05-11 17:13:46]   ✓ Output matches expected: 575227823167869
+[2025-05-11 17:13:46] Day 19 Part Part 2 (Clojure): CORRECT - Time: 0.648s
+[2025-05-11 17:13:46] 
+Processing Day 20 [80.0%]
+[2025-05-11 17:13:46] Checking C solution for Day 20 Part 1
+[2025-05-11 17:13:46]   → Compiling C program: output_20a.c
+[2025-05-11 17:13:46]   → Running C program
+[2025-05-11 17:13:46]   ✗ Program produced no output
+[2025-05-11 17:13:46] Day 20 Part Part 1 (C): EMPTY_OUTPUT - Time: 0.161s
+[2025-05-11 17:13:46] Checking C solution for Day 20 Part 2
+[2025-05-11 17:13:46]   → Compiling C program: output_20b.c
+[2025-05-11 17:13:46]   → Running C program
+[2025-05-11 17:13:46]   ✗ Program produced no output
+[2025-05-11 17:13:46] Day 20 Part Part 2 (C): EMPTY_OUTPUT - Time: 0.444s
+[2025-05-11 17:13:46] Checking Python solution for Day 20 Part 1
+[2025-05-11 17:13:46]   → Running Python script: output_20a.py
+[2025-05-11 17:14:44]   ✗ Execution timed out (>60s)
+[2025-05-11 17:14:44] Day 20 Part Part 1 (Python): TIMEOUT - Time: 60.000s
+[2025-05-11 17:14:44] Checking Python solution for Day 20 Part 2
+[2025-05-11 17:14:44]   → Running Python script: output_20b.py
+[2025-05-11 17:15:39]   ✗ Execution timed out (>60s)
+[2025-05-11 17:15:39] Day 20 Part Part 2 (Python): TIMEOUT - Time: 60.000s
+[2025-05-11 17:15:39] Checking Clojure solution for Day 20 Part 1
+[2025-05-11 17:15:39]   → Running Clojure script: output_20a.clj
+[2025-05-11 17:15:40]   ✗ Runtime error: Syntax error reading source at (output_20a.clj:76:1). EOF while reading, starting at line 26  Full report at: /tmp/clojure-5511215337713390883.edn
+[2025-05-11 17:15:40] Day 20 Part Part 1 (Clojure): ERROR - Time: 0.753s
+[2025-05-11 17:15:40] Checking Clojure solution for Day 20 Part 2
+[2025-05-11 17:15:40]   → Running Clojure script: output_20b.clj
+[2025-05-11 17:15:40]   ✗ Runtime error: Syntax error reading source at (output_20b.clj:79:1). EOF while reading, starting at line 37  Full report at: /tmp/clojure-10232991711089224497.edn
+[2025-05-11 17:15:40] Day 20 Part Part 2 (Clojure): ERROR - Time: 0.731s
+[2025-05-11 17:15:40] 
+Processing Day 21 [84.0%]
+[2025-05-11 17:15:40] Checking C solution for Day 21 Part 1
+[2025-05-11 17:15:40]   → Compiling C program: output_21a.c
+[2025-05-11 17:15:41]   → Running C program
+[2025-05-11 17:15:41]   ✗ Output does not match expected:
+[2025-05-11 17:15:41]     - Got:      0
+[2025-05-11 17:15:41]     - Expected: 128962
+[2025-05-11 17:15:41] Day 21 Part Part 1 (C): INCORRECT - Time: 0.267s
+[2025-05-11 17:15:41] Checking C solution for Day 21 Part 2
+[2025-05-11 17:15:41]   → Compiling C program: output_21b.c
+[2025-05-11 17:15:41]   → Running C program
+[2025-05-11 17:15:41]   ✗ Output does not match expected:
+[2025-05-11 17:15:41]     - Got:      0
+[2025-05-11 17:15:41]     - Expected: 159684145150108
+[2025-05-11 17:15:41] Day 21 Part Part 2 (C): INCORRECT - Time: 0.458s
+[2025-05-11 17:15:41] Checking Python solution for Day 21 Part 1
+[2025-05-11 17:15:41]   → Running Python script: output_21a.py
+[2025-05-11 17:15:41]   ✗ Output does not match expected:
+[2025-05-11 17:15:41]     - Got:      inf
+[2025-05-11 17:15:41]     - Expected: 128962
+[2025-05-11 17:15:41] Day 21 Part Part 1 (Python): INCORRECT - Time: 0.009s
+[2025-05-11 17:15:41] Checking Python solution for Day 21 Part 2
+[2025-05-11 17:15:41]   → Running Python script: output_21b.py
+[2025-05-11 17:15:58]   ✗ Output does not match expected:
+[2025-05-11 17:15:58]     - Got:      inf
+[2025-05-11 17:15:58]     - Expected: 159684145150108
+[2025-05-11 17:15:58] Day 21 Part Part 2 (Python): INCORRECT - Time: 16.800s
+[2025-05-11 17:15:58] Checking Clojure solution for Day 21 Part 1
+[2025-05-11 17:15:58]   → Running Clojure script: output_21a.clj
+[2025-05-11 17:15:59]   ✗ Runtime error: Syntax error reading source at (output_21a.clj:13:18). Invalid token: :  Full report at: /tmp/clojure-11953591018943651826.edn
+[2025-05-11 17:15:59] Day 21 Part Part 1 (Clojure): ERROR - Time: 0.778s
+[2025-05-11 17:15:59] Checking Clojure solution for Day 21 Part 2
+[2025-05-11 17:15:59]   → Running Clojure script: output_21b.clj
+[2025-05-11 17:15:59]   ✗ Runtime error: Syntax error reading source at (output_21b.clj:35:59). Unmatched delimiter: )  Full report at: /tmp/clojure-15356270074568503421.edn
+[2025-05-11 17:15:59] Day 21 Part Part 2 (Clojure): ERROR - Time: 0.813s
+[2025-05-11 17:15:59] 
+Processing Day 22 [88.0%]
+[2025-05-11 17:15:59] Checking C solution for Day 22 Part 1
+[2025-05-11 17:15:59]   → Compiling C program: output_22a.c
+[2025-05-11 17:16:00]   → Running C program
+[2025-05-11 17:16:00]   ✗ Output does not match expected:
+[2025-05-11 17:16:00]     - Got:      349813602
+[2025-05-11 17:16:00]     - Expected: 13234715490
+[2025-05-11 17:16:00] Day 22 Part Part 1 (C): INCORRECT - Time: 0.149s
+[2025-05-11 17:16:00] Checking C solution for Day 22 Part 2
+[2025-05-11 17:16:00]   → Compiling C program: output_22b.c
+[2025-05-11 17:16:00]   → Running C program
+[2025-05-11 17:16:01]   ✗ Program produced no output
+[2025-05-11 17:16:01] Day 22 Part Part 2 (C): EMPTY_OUTPUT - Time: 1.105s
+[2025-05-11 17:16:01] Checking Python solution for Day 22 Part 1
+[2025-05-11 17:16:01]   → Running Python script: output_22a.py
+[2025-05-11 17:16:01]   ✓ Output matches expected: 13234715490
+[2025-05-11 17:16:01] Day 22 Part Part 1 (Python): CORRECT - Time: 0.432s
+[2025-05-11 17:16:01] Checking Python solution for Day 22 Part 2
+[2025-05-11 17:16:01]   → Running Python script: output_22b.py
+[2025-05-11 17:16:57]   ✗ Execution timed out (>60s)
+[2025-05-11 17:16:57] Day 22 Part Part 2 (Python): TIMEOUT - Time: 60.000s
+[2025-05-11 17:16:57] Checking Clojure solution for Day 22 Part 1
+[2025-05-11 17:16:57]   → Running Clojure script: output_22a.clj
+[2025-05-11 17:16:58]   ✓ Output matches expected: 13234715490
+[2025-05-11 17:16:58] Day 22 Part Part 1 (Clojure): CORRECT - Time: 0.706s
+[2025-05-11 17:16:58] Checking Clojure solution for Day 22 Part 2
+[2025-05-11 17:16:58]   → Running Clojure script: output_22b.clj
+[2025-05-11 17:17:53]   ✗ Execution timed out (>60s)
+[2025-05-11 17:17:53] Day 22 Part Part 2 (Clojure): TIMEOUT - Time: 60.000s
+[2025-05-11 17:17:53] 
+Processing Day 23 [92.0%]
+[2025-05-11 17:17:53] Checking C solution for Day 23 Part 1
+[2025-05-11 17:17:53]   → Compiling C program: output_23a.c
+[2025-05-11 17:17:53]   → Running C program
+[2025-05-11 17:17:53]   ✗ Program produced no output
+[2025-05-11 17:17:53] Day 23 Part Part 1 (C): EMPTY_OUTPUT - Time: 0.243s
+[2025-05-11 17:17:53] Checking C solution for Day 23 Part 2
+[2025-05-11 17:17:53]   → Compiling C program: output_23b.c
+[2025-05-11 17:17:53]   → Running C program
+[2025-05-11 17:17:53]   ✗ Program produced no output
+[2025-05-11 17:17:53] Day 23 Part Part 2 (C): EMPTY_OUTPUT - Time: 0.329s
+[2025-05-11 17:17:53] Checking Python solution for Day 23 Part 1
+[2025-05-11 17:17:53]   → Running Python script: output_23a.py
+[2025-05-11 17:17:54]   ✓ Output matches expected: 1485
+[2025-05-11 17:17:54] Day 23 Part Part 1 (Python): CORRECT - Time: 0.460s
+[2025-05-11 17:17:54] Checking Python solution for Day 23 Part 2
+[2025-05-11 17:17:54]   → Running Python script: output_23b.py
+[2025-05-11 17:17:54]   ✓ Output matches expected: cc,dz,ea,hj,if,it,kf,qo,sk,ug,ut,uv,wh
+[2025-05-11 17:17:54] Day 23 Part Part 2 (Python): CORRECT - Time: 0.177s
+[2025-05-11 17:17:54] Checking Clojure solution for Day 23 Part 1
+[2025-05-11 17:17:54]   → Running Clojure script: output_23a.clj
+[2025-05-11 17:17:55]   ✗ Runtime error: Syntax error compiling at (output_23a.clj:18:17). No such var: str/compare  Full report at: /tmp/clojure-12621408816436899605.edn
+[2025-05-11 17:17:55] Day 23 Part Part 1 (Clojure): ERROR - Time: 0.671s
+[2025-05-11 17:17:55] Checking Clojure solution for Day 23 Part 2
+[2025-05-11 17:17:55]   → Running Clojure script: output_23b.clj
+[2025-05-11 17:18:50]   ✗ Execution timed out (>60s)
+[2025-05-11 17:18:50] Day 23 Part Part 2 (Clojure): TIMEOUT - Time: 60.000s
+[2025-05-11 17:18:50] 
+Processing Day 24 [96.0%]
+[2025-05-11 17:18:50] Checking C solution for Day 24 Part 1
+[2025-05-11 17:18:50]   → Compiling C program: output_24a.c
+[2025-05-11 17:18:50]   → Running C program
+[2025-05-11 17:18:50]   ✗ Program produced no output
+[2025-05-11 17:18:50] Day 24 Part Part 1 (C): EMPTY_OUTPUT - Time: 0.177s
+[2025-05-11 17:18:50] Checking C solution for Day 24 Part 2
+[2025-05-11 17:18:50]   → Compiling C program: output_24b.c
+[2025-05-11 17:18:50]   → Running C program
+[2025-05-11 17:18:50]   ✗ Program produced no output
+[2025-05-11 17:18:50] Day 24 Part Part 2 (C): EMPTY_OUTPUT - Time: 0.136s
+[2025-05-11 17:18:50] Checking Python solution for Day 24 Part 1
+[2025-05-11 17:18:50]   → Running Python script: output_24a.py
+[2025-05-11 17:18:50]   ✓ Output matches expected: 54715147844840
+[2025-05-11 17:18:50] Day 24 Part Part 1 (Python): CORRECT - Time: 0.013s
+[2025-05-11 17:18:50] Checking Python solution for Day 24 Part 2
+[2025-05-11 17:18:50]   → Running Python script: output_24b.py
+[2025-05-11 17:19:48]   ✗ Execution timed out (>60s)
+[2025-05-11 17:19:48] Day 24 Part Part 2 (Python): TIMEOUT - Time: 60.000s
+[2025-05-11 17:19:48] Checking Clojure solution for Day 24 Part 1
+[2025-05-11 17:19:48]   → Running Clojure script: output_24a.clj
+[2025-05-11 17:20:43]   ✗ Execution timed out (>60s)
+[2025-05-11 17:20:43] Day 24 Part Part 1 (Clojure): TIMEOUT - Time: 60.000s
+[2025-05-11 17:20:43] Checking Clojure solution for Day 24 Part 2
+[2025-05-11 17:20:43]   → Running Clojure script: output_24b.clj
+[2025-05-11 17:20:44]   ✗ Runtime error: Execution error (NullPointerException) at output-24b/find-z-wires$fn (output_24b.clj:63). Cannot invoke "Object.toString()" because "s" is null  Full report at: /tmp/clojure-13675219446029549661.edn
+[2025-05-11 17:20:44] Day 24 Part Part 2 (Clojure): ERROR - Time: 0.911s
+[2025-05-11 17:20:44] 
+Processing Day 25 [100.0%]
+[2025-05-11 17:20:44] Checking C solution for Day 25 Part 1
+[2025-05-11 17:20:44]   → Compiling C program: output_25a.c
+[2025-05-11 17:20:44]   → Running C program
+[2025-05-11 17:20:44]   ✗ Output does not match expected:
+[2025-05-11 17:20:44]     - Got:      0
+[2025-05-11 17:20:44]     - Expected: 2900
+[2025-05-11 17:20:44] Day 25 Part Part 1 (C): INCORRECT - Time: 0.147s
+[2025-05-11 17:20:44] Checking C solution for Day 25 Part 2
+[2025-05-11 17:20:44]   ✗ No source file found: output_25b.c
+[2025-05-11 17:20:44] Day 25 Part Part 2 (C): SCRIPT_NOT_FOUND - Time: 0.000s
+[2025-05-11 17:20:44] Checking Python solution for Day 25 Part 1
+[2025-05-11 17:20:44]   → Running Python script: output_25a.py
+[2025-05-11 17:20:44]   ✗ Output does not match expected:
+[2025-05-11 17:20:44]     - Got:      19
+[2025-05-11 17:20:44]     - Expected: 2900
+[2025-05-11 17:20:44] Day 25 Part Part 1 (Python): INCORRECT - Time: 0.018s
+[2025-05-11 17:20:44] Checking Python solution for Day 25 Part 2
+[2025-05-11 17:20:44]   ✗ No source file found: output_25b.py
+[2025-05-11 17:20:44] Day 25 Part Part 2 (Python): SCRIPT_NOT_FOUND - Time: 0.000s
+[2025-05-11 17:20:44] Checking Clojure solution for Day 25 Part 1
+[2025-05-11 17:20:44]   → Running Clojure script: output_25a.clj
+[2025-05-11 17:20:45]   ✗ Output does not match expected:
+[2025-05-11 17:20:45]     - Got:      496
+[2025-05-11 17:20:45]     - Expected: 2900
+[2025-05-11 17:20:45] Day 25 Part Part 1 (Clojure): INCORRECT - Time: 0.563s
+[2025-05-11 17:20:45] Checking Clojure solution for Day 25 Part 2
+[2025-05-11 17:20:45]   ✗ No source file found: output_25b.clj
+[2025-05-11 17:20:45] Day 25 Part Part 2 (Clojure): SCRIPT_NOT_FOUND - Time: 0.000s
+[2025-05-11 17:20:45] 
+============================================================
+[2025-05-11 17:20:45] EXECUTION SUMMARY
+[2025-05-11 17:20:45] ============================================================
+[2025-05-11 17:20:45] OVERALL STATISTICS:
+[2025-05-11 17:20:45]   ✓ Correct:    55/150 (36.7%)
+[2025-05-11 17:20:45]   ✗ Incorrect:  36/150 (24.0%)
+[2025-05-11 17:20:45]   ✗ Errors:     38/150 (25.3%)
+[2025-05-11 17:20:45]   ✗ Other:      21/150 (14.0%)
+[2025-05-11 17:20:45] 
+[2025-05-11 17:20:45] C RESULTS:
+[2025-05-11 17:20:45]   ✓ Correct:    3/50 (6.0%)
+[2025-05-11 17:20:45]   ✗ Incorrect:  19/50 (38.0%)
+[2025-05-11 17:20:45]   ✗ Errors:     10/50 (20.0%)
+[2025-05-11 17:20:45]   ✗ Other:      18/50 (36.0%)
+[2025-05-11 17:20:45]   Slowest Run: Day 06 Part 2 - 1.479s
+[2025-05-11 17:20:45] 
+[2025-05-11 17:20:45] PYTHON RESULTS:
+[2025-05-11 17:20:45]   ✓ Correct:    33/50 (66.0%)
+[2025-05-11 17:20:45]   ✗ Incorrect:  10/50 (20.0%)
+[2025-05-11 17:20:45]   ✗ Errors:     5/50 (10.0%)
+[2025-05-11 17:20:45]   ✗ Other:      2/50 (4.0%)
+[2025-05-11 17:20:45]   Slowest Run: Day 13 Part 2 - 45.283s
+[2025-05-11 17:20:45] 
+[2025-05-11 17:20:45] CLOJURE RESULTS:
+[2025-05-11 17:20:45]   ✓ Correct:    19/50 (38.0%)
+[2025-05-11 17:20:45]   ✗ Incorrect:  7/50 (14.0%)
+[2025-05-11 17:20:45]   ✗ Errors:     23/50 (46.0%)
+[2025-05-11 17:20:45]   ✗ Other:      1/50 (2.0%)
+[2025-05-11 17:20:45]   Slowest Run: Day 06 Part 2 - 46.411s
+[2025-05-11 17:20:45] 
+[2025-05-11 17:20:45] ============================================================
+[2025-05-11 17:20:45] Detailed report available at: /home/scriptie/Scriptie/Reports/Check_Report.csv
+[2025-05-11 17:20:45] Log file available at: /home/scriptie/Scriptie/Reports/execution_log.txt
+[2025-05-11 17:20:45] ============================================================
+[2025-05-11 17:20:45] 
+Execution completed at 2025-05-11 17:20:45

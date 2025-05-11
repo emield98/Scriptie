@@ -3,7 +3,7 @@ import os
 def print_tree(startpath, prefix=''):
     files = sorted(os.listdir(startpath))
     for index, name in enumerate(files):
-        if name in {".cpcache", ".venv"}:  # Exclude specified directories
+        if name in {".cpcache", ".venv", ".git"}:  # Exclude specified directories
             continue
         path = os.path.join(startpath, name)
         connector = '└── ' if index == len(files) - 1 else '├── '

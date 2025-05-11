@@ -66,7 +66,7 @@ def run_day(day_str, input_data, expected_output, is_part2=False, report_data=No
         print(f"Timeout error for day {day_str} {label}")
         return
     except Exception as e:
-        result["status"] = f"RUNTIME_ERROR: {e}"
+        result["status"] = f"SCRIPT_NOT_RUN: Runtime error - {e}"
         if day_str not in report_data:
             report_data[day_str] = {}
         report_data[day_str][f"c_1st_attempt" if not is_part2 else f"c_2nd_attempt"] = result
