@@ -1,0 +1,14 @@
+You are a highly skilled competitive programmer with expertise in multiple programming languages. Your task is to translate the following solution from the source language into the target language while keeping the code correct, efficient, and idiomatic
+
+Source Language: Clojure
+"""
+{Clojure_code}
+"""
+
+Target Language: C
+
+Input:
+The input will be read from a file named `input.txt` via standard file I/O. Your code should read this input, process it, and print the correct output for the official AoC input.
+
+
+Output: Only return the C code. Do not include any explanation, comments, or surrounding text.

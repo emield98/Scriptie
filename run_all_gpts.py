@@ -12,8 +12,8 @@ BASE_DIR = "/home/scriptie/Scriptie/"
 # Paths to the required directories and files
 JSON_PATH = os.path.join(BASE_DIR, "input_answers/answers2024.json")
 INPUT_FILENAME = os.path.join(BASE_DIR, "input.txt")
-CSV_REPORT_PATH = os.path.join(BASE_DIR, "Reports/Check_Report.csv")
-LOG_FILE_PATH = os.path.join(BASE_DIR, "Reports/execution_log.txt")
+CSV_REPORT_PATH = os.path.join(BASE_DIR, "Reports/Direct_Attempt/Check_Report.csv")
+LOG_FILE_PATH = os.path.join(BASE_DIR, "Reports/Direct_Attempt/execution_log.txt")
 
 # ANSI color codes for terminal output
 class Colors:
@@ -118,7 +118,7 @@ def run_c(day_str: str, input_data: str, expected_output: str, is_part2: bool = 
     label = "Part 2" if is_part2 else "Part 1"
     day_str = str(day_str).zfill(2)
     filename = f"output_{day_str}{'b' if is_part2 else 'a'}.c"
-    path = f"ChatGPT/c/output/{filename}"
+    path = f"ChatGPT/Direct_Attempt/c/output/{filename}"
     full_path = os.path.join(BASE_DIR, path)
 
     log_message(f"{Colors.BOLD}Checking C solution for Day {day_str} {label}{Colors.RESET}")
@@ -289,7 +289,7 @@ def run_python(day_str: str, input_data: str, expected_output: str, is_part2: bo
     label = "Part 2" if is_part2 else "Part 1"
     day_str = str(day_str).zfill(2)
     filename = f"output_{day_str}{'b' if is_part2 else 'a'}.py"
-    path = f"ChatGPT/python/output/{filename}"
+    path = f"ChatGPT/Direct_Attempt/python/output/{filename}"
     full_path = os.path.join(BASE_DIR, path)
 
     log_message(f"{Colors.BOLD}Checking Python solution for Day {day_str} {label}{Colors.RESET}")
@@ -427,7 +427,7 @@ def run_clojure(day_str: str, input_data: str, expected_output: str, is_part2: b
     label = "Part 2" if is_part2 else "Part 1"
     day_str = str(day_str).zfill(2)
     filename = f"output_{day_str}{'b' if is_part2 else 'a'}.clj"
-    path = f"ChatGPT/clojure/output/{filename}"
+    path = f"ChatGPT/Direct_Attempt/clojure/output/{filename}"
     full_path = os.path.join(BASE_DIR, path)
 
     log_message(f"{Colors.BOLD}Checking Clojure solution for Day {day_str} {label}{Colors.RESET}")
