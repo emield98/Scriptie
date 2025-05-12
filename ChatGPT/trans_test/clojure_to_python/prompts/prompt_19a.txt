@@ -1,0 +1,44 @@
+You are a highly skilled competitive programmer with expertise in multiple programming languages. Your task is to translate the following solution from the source language into the target language while keeping the code correct, efficient, and idiomatic
+
+Source Language: Clojure
+"""
+;; ChatGPT-generated solution will go here.
+(ns output_19a
+  (:require [clojure.string :as str]))
+
+(defn parse-input [lines]
+  (let [[patterns-line _ & designs] lines
+        patterns (str/split patterns-line #",\s*")]
+    {:patterns patterns
+     :designs designs}))
+
+(defn can-form? [patterns design]
+  (let [n (count design)
+        pattern-set (set patterns)
+        dp (boolean-array (inc n))]
+    (aset dp 0 true)
+    (doseq [i (range 1 (inc n))]
+      (doseq [j (range (max 0 (- i 10)) i)]
+        (when (and (aget dp j)
+                   (pattern-set (subs design j i)))
+          (aset dp i true))))
+    (aget dp n)))
+
+(defn part [lines]
+  (let [{:keys [patterns designs]} (parse-input lines)]
+    (count (filter #(can-form? patterns %) designs))))
+
+(defn -main [& args]
+  (let [filename (first args)
+        lines (str/split-lines (slurp filename))]
+    (println (part lines))))
+
+"""
+
+Target Language: python
+
+Input:
+The input will be read from a file named `input.txt` via standard file I/O. Your code should read this input, process it, and print the correct output for the official AoC input.
+
+
+Output: Only return the python code. Do not include any explanation, comments, or surrounding text.

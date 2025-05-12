@@ -1,0 +1,63 @@
+You are a highly skilled competitive programmer with expertise in multiple programming languages. Your task is to translate the following solution from the source language into the target language while keeping the code correct, efficient, and idiomatic
+
+Source Language: Python
+"""
+# ChatGPT-generated solution will go here.
+from itertools import product
+
+def concat(a, b):
+    return int(str(a) + str(b))
+
+def eval_expr(nums, ops):
+    result = nums[0]
+    for i in range(len(ops)):
+        if ops[i] == '+':
+            result += nums[i + 1]
+        elif ops[i] == '*':
+            result *= nums[i + 1]
+        else:  # '||'
+            result = concat(result, nums[i + 1])
+    return result
+
+def main():
+    total = 0
+    with open('input.txt') as f:
+        for line in f:
+            if not line.strip():
+                continue
+            left, right = line.strip().split(':')
+            target = int(left.strip())
+            nums = list(map(int, right.strip().split()))
+            n = len(nums)
+            for ops in product(['+', '*', '||'], repeat=n - 1):
+                if eval_expr(nums, ops) == target:
+                    total += target
+                    break
+    print(total)
+
+if __name__ == '__main__':
+    main()
+
+"""
+
+Target Language: Clojure
+
+Input:
+The input will be read from a file named `input.txt` via standard file I/O. Your code should read this input, process it, and print the correct output for the official AoC input.
+
+Environment: 
+deps.edn: {:paths ["ChatGPT/trans_test/c_to_clojure"]}
+
+File structure:
+(ns output_{day:2digit}{a/b})
+
+
+(defn -main [& args]
+  (let [filename (first args)
+        lines (str/split-lines (slurp filename))]
+    (println (part lines))))
+
+
+Output:
+Nested # are not allowed.
+Only return the Clojure code. Do not include any explanation, comments, or surrounding text.

@@ -1,0 +1,84 @@
+You are a highly skilled competitive programmer with expertise in multiple programming languages. Your task is to translate the following solution from the source language into the target language while keeping the code correct, efficient, and idiomatic
+
+Source Language: C
+"""
+// ChatGPT-generated solution will go here.
+#include <stdio.h>
+#include <string.h>
+
+#define MAX_SIZE 1000
+
+int directions[4][2] = {
+    {-1, 0}, // up
+    {0, 1},  // right
+    {1, 0},  // down
+    {0, -1}  // left
+};
+
+char grid[MAX_SIZE][MAX_SIZE];
+int visited[MAX_SIZE][MAX_SIZE] = {0};
+
+int main() {
+    FILE *f = fopen("input.txt", "r");
+    char line[MAX_SIZE];
+    int x = 0, y = 0, dir = 0;
+
+    // Read the grid
+    for (int i = 0; fgets(line, sizeof(line), f); i++) {
+        strcpy(grid[i], line);
+        for (int j = 0; j < strlen(line); j++) {
+            if (line[j] == '^') {
+                x = i;
+                y = j;
+                dir = 0; // Up
+                grid[i][j] = '.';
+            }
+        }
+    }
+
+    fclose(f);
+
+    int visited_count = 0;
+    while (x >= 0 && x < MAX_SIZE && y >= 0 && y < MAX_SIZE && grid[x][y] != '\0') {
+        if (!visited[x][y]) {
+            visited[x][y] = 1;
+            visited_count++;
+        }
+
+        int next_x = x + directions[dir][0];
+        int next_y = y + directions[dir][1];
+
+        if (grid[next_x][next_y] == '#') {
+            dir = (dir + 1) % 4; // Turn right (clockwise)
+        } else {
+            x = next_x;
+            y = next_y;
+        }
+    }
+
+    printf("%d\n", visited_count);
+    return 0;
+}
+"""
+
+Target Language: Clojure
+
+Input:
+The input will be read from a file named `input.txt` via standard file I/O. Your code should read this input, process it, and print the correct output for the official AoC input.
+
+Environment: 
+deps.edn: {:paths ["ChatGPT/trans_test/c_to_clojure"]}
+
+File structure:
+(ns output_{day:2digit}{a/b})
+
+
+(defn -main [& args]
+  (let [filename (first args)
+        lines (str/split-lines (slurp filename))]
+    (println (part lines))))
+
+
+Output:
+Nested # are not allowed.
+Only return the Clojure code. Do not include any explanation, comments, or surrounding text.

@@ -1,1 +1,57 @@
 # ChatGPT-generated solution will go here.
+from collections import defaultdict, deque
+
+def main():
+    with open("input.txt") as f:
+        lines = [line.strip() for line in f if line.strip()]
+
+    rules = []
+    updates = []
+
+    i = 0
+    while '|' in lines[i]:
+        x, y = map(int, lines[i].split('|'))
+        rules.append((x, y))
+        i += 1
+
+    for line in lines[i:]:
+        updates.append(list(map(int, line.split(','))))
+
+    def is_valid(update, rule_set):
+        pos = {val: idx for idx, val in enumerate(update)}
+        for x, y in rule_set:
+            if pos[x] >= pos[y]:
+                return False
+        return True
+
+    def topo_sort(nodes, rule_set):
+        graph = defaultdict(list)
+        indegree = defaultdict(int)
+        for x in nodes:
+            indegree[x] = 0
+        for x, y in rule_set:
+            graph[x].append(y)
+            indegree[y] += 1
+        q = deque(sorted([node for node in nodes if indegree[node] == 0]))
+        result = []
+        while q:
+            u = q.popleft()
+            result.append(u)
+            for v in sorted(graph[u]):
+                indegree[v] -= 1
+                if indegree[v] == 0:
+                    q.append(v)
+        return result
+
+    total = 0
+
+    for update in updates:
+        subset_rules = [(x, y) for x, y in rules if x in update and y in update]
+        if not is_valid(update, subset_rules):
+            sorted_update = topo_sort(update, subset_rules)
+            total += sorted_update[len(sorted_update)//2]
+
+    print(total)
+
+if __name__ == "__main__":
+    main()

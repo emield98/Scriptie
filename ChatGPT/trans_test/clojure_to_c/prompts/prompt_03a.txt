@@ -1,0 +1,29 @@
+You are a highly skilled competitive programmer with expertise in multiple programming languages. Your task is to translate the following solution from the source language into the target language while keeping the code correct, efficient, and idiomatic
+
+Source Language: Clojure
+"""
+;; ChatGPT-generated solution will go here.
+(ns output_03a
+  (:require [clojure.string :as str]))
+
+(defn part [lines]
+  (let [input (apply str lines)
+        pattern #"mul\((\d{1,3}),(\d{1,3})\)"]
+    (->> (re-seq pattern input)
+         (map (fn [[_ a b]] (* (parse-long a) (parse-long b))))
+         (reduce +))))
+
+(defn -main [& args]
+  (let [filename (first args)
+        lines (str/split-lines (slurp filename))]
+    (println (part lines))))
+
+"""
+
+Target Language: C
+
+Input:
+The input will be read from a file named `input.txt` via standard file I/O. Your code should read this input, process it, and print the correct output for the official AoC input.
+
+
+Output: Only return the C code. Do not include any explanation, comments, or surrounding text.

@@ -1,0 +1,61 @@
+You are a highly skilled competitive programmer with expertise in multiple programming languages. Your task is to translate the following solution from the source language into the target language while keeping the code correct, efficient, and idiomatic
+
+Source Language: Python
+"""
+# ChatGPT-generated solution will go here.
+from collections import defaultdict
+from itertools import combinations
+
+def main():
+    with open("input.txt") as f:
+        edges = [line.strip().split('-') for line in f if line.strip()]
+
+    graph = defaultdict(set)
+    for a, b in edges:
+        graph[a].add(b)
+        graph[b].add(a)
+
+    nodes = list(graph.keys())
+    max_clique = []
+
+    def is_clique(clique):
+        return all(b in graph[a] for a, b in combinations(clique, 2))
+
+    def dfs(clique, candidates):
+        nonlocal max_clique
+        if len(clique) > len(max_clique):
+            max_clique = clique[:]
+        for i, node in enumerate(candidates):
+            new_clique = clique + [node]
+            new_candidates = [n for n in candidates[i+1:] if all(n in graph[x] for x in new_clique)]
+            dfs(new_clique, new_candidates)
+
+    dfs([], nodes)
+    print(','.join(sorted(max_clique)))
+
+if __name__ == "__main__":
+    main()
+
+"""
+
+Target Language: Clojure
+
+Input:
+The input will be read from a file named `input.txt` via standard file I/O. Your code should read this input, process it, and print the correct output for the official AoC input.
+
+Environment: 
+deps.edn: {:paths ["ChatGPT/trans_test/c_to_clojure"]}
+
+File structure:
+(ns output_{day:2digit}{a/b})
+
+
+(defn -main [& args]
+  (let [filename (first args)
+        lines (str/split-lines (slurp filename))]
+    (println (part lines))))
+
+
+Output:
+Nested # are not allowed.
+Only return the Clojure code. Do not include any explanation, comments, or surrounding text.
