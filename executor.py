@@ -76,7 +76,14 @@ def process_scripts(lang, lang_dir, log_file, csv_file, attempt, timeout=60):
             if result is None:
                 raise ValueError("Script execution returned None")
 
+            # Handle structured error dict
+            if isinstance(result, dict) and result.get("error"):
+                err_type = result.get("type", "UNKNOWN")
+                stderr = result.get("stderr", "").strip()
+                raise RuntimeError(f"{err_type.capitalize()} error (exit {result.get('returncode')}): {stderr}")
+
             result = result.strip()
+
             execution_time = (datetime.datetime.now() - start_time).total_seconds()
             
             # Normalize both result and expected answer for comparison

@@ -55,13 +55,12 @@ def clojure_runner(clojure_file, input_file, timeout=DEFAULT_TIMEOUT):
             timeout=timeout,
         )
         proc.check_returncode()
-        log_message("→ Success! Output:")
-        print(proc.stdout)
+        log_message(f"→ Success! Output: {proc.stdout}")
         return proc.stdout
     
     except subprocess.TimeoutExpired:
         log_message(f"ERROR: Script timed out after {timeout} seconds.")
-        return None
+        return "TIMEOUT"
     
     except subprocess.CalledProcessError as e:
         log_message(f"ERROR: Script exited with code {e.returncode}.")
@@ -69,7 +68,13 @@ def clojure_runner(clojure_file, input_file, timeout=DEFAULT_TIMEOUT):
         print(e.stdout)
         log_message("STDERR:")
         print(e.stderr)
-        return None
+        return {
+            "error": True,
+            "returncode": e.returncode,
+            "stdout": e.stdout,
+            "stderr": e.stderr
+        }
+
     
     except Exception as e:
         log_message(f"ERROR: {str(e)}")
@@ -110,7 +115,7 @@ def python_runner(python_file, input_file, timeout=DEFAULT_TIMEOUT):
             cmd, cwd=script_dir, capture_output=True, text=True, timeout=timeout
         )
         proc.check_returncode()
-        log_message("→ Success! Output:")
+        log_message(f"→ Success! Output: {proc.stdout}")
         return proc.stdout
     
     except subprocess.TimeoutExpired:
@@ -123,7 +128,13 @@ def python_runner(python_file, input_file, timeout=DEFAULT_TIMEOUT):
         print(e.stdout)
         log_message("STDERR:")
         print(e.stderr)
-        return None
+        return {
+            "error": True,
+            "returncode": e.returncode,
+            "stdout": e.stdout,
+            "stderr": e.stderr
+        }
+
     
     finally:
         # Clean up symlink
@@ -179,13 +190,12 @@ def c_runner(c_file, input_file, timeout=DEFAULT_TIMEOUT):
             run_cmd, cwd=root_dir, capture_output=True, text=True, timeout=timeout
         )
         run_proc.check_returncode()
-        log_message("→ Success! Program output:")
-        print(run_proc.stdout)
+        log_message(f"→ Success! Program output: {run_proc.stdout}")
         return run_proc.stdout
     
     except subprocess.TimeoutExpired:
         log_message(f"ERROR: Process timed out after {timeout} seconds.")
-        return None
+        return "TIMEOUT"
     
     except subprocess.CalledProcessError as e:
         if 'compile_proc' in locals():
@@ -200,7 +210,14 @@ def c_runner(c_file, input_file, timeout=DEFAULT_TIMEOUT):
             print(e.stdout)
             log_message("Program STDERR:")
             print(e.stderr)
-        return None
+        return {
+            "error": True,
+            "type": "compilation" if 'compile_proc' in locals() else "runtime",
+            "returncode": e.returncode,
+            "stdout": e.stdout,
+            "stderr": e.stderr
+        }
+
     
     except Exception as e:
         log_message(f"ERROR: {str(e)}")
