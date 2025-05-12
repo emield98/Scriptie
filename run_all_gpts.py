@@ -169,14 +169,17 @@ def run_c(day_str: str, input_data: str, expected_output: str, is_part2: bool = 
             return
 
         # Execution
+        # Execution with explicit input redirection
         log_message(f"  → Running C program")
         run_process = subprocess.run(
-            output_program, 
-            capture_output=True, 
-            text=True, 
-            timeout=60, 
-            cwd=BASE_DIR
+            f"./{os.path.basename(output_program)} < {os.path.basename(INPUT_FILENAME)}",
+            capture_output=True,
+            text=True,
+            timeout=60,
+            cwd=BASE_DIR,
+            shell=True
         )
+
         
         output = run_process.stdout.strip()
         error = run_process.stderr.strip()
