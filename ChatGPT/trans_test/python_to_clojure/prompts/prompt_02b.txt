@@ -39,7 +39,7 @@ Input:
 The input will be read from a file named `input.txt` via standard file I/O. Your code should read this input, process it, and print the correct output for the official AoC input.
 
 Environment: 
-deps.edn: {:paths ["ChatGPT/trans_test/c_to_clojure"]}
+deps.edn: {:paths ["ChatGPT/trans_test/python_to_clojure/output"]}
 
 File structure:
 (ns output_{day:2digit}{a/b})
