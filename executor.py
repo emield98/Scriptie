@@ -103,4 +103,4 @@ def process_scripts(lang, lang_dir, log_file, csv_file, attempt, timeout=60):
         except Exception as e:
             execution_time = (datetime.datetime.now() - start_time).total_seconds()
             log_message(f"{Colors.RED}Day {day}, Part {part}: Error - {str(e)}{Colors.RESET}", log_file)
-            write_csv_row(csv_file, day, part, lang, attempt, "N/A", str(answer), "ERROR", str(e), execution_time)
+            write_csv_row(csv_file, day, part, lang, attempt, "N/A", str(answer), "ERROR", str(e).replace("\n", " ").replace("\r", " ").strip(), execution_time)

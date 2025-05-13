@@ -1,0 +1,315 @@
+[2025-05-12 21:16:21] Starting AOC Runner
+[2025-05-12 21:16:21] Log file: ./logs/translations.txt
+[2025-05-12 21:16:21] CSV report: ./reports/translations.csv
+[2025-05-12 21:16:21] Timeout: 60 seconds
+[2025-05-12 21:16:21] Processing translation scripts...
+[2025-05-12 21:16:21] Processing clojure scripts in ChatGPT/trans_test/c_to_clojure/output
+[2025-05-12 21:16:21] Skipping invalid file: .cpcache
+[2025-05-12 21:16:21] Skipping invalid file: deps.edn
+[2025-05-12 21:16:21] Running day 1, part 1 (clojure)
+[2025-05-12 21:16:21] Day 1, Part 1: Correct
+[2025-05-12 21:16:21] Running day 1, part 2 (clojure)
+[2025-05-12 21:16:22] Day 1, Part 2: Correct
+[2025-05-12 21:16:22] Running day 6, part 1 (clojure)
+[2025-05-12 21:16:22] Day 6, Part 1: Error - Unknown error (exit 1): Execution error (FileNotFoundException) at clojure.main/main (main.java:40).
+Could not locate output_02a__init.class, output_02a.clj or output_02a.cljc on classpath. Please check that namespaces with dashes use underscores in the Clojure file name.
+
+Full report at:
+/tmp/clojure-3777954306034829546.edn
+[2025-05-12 21:16:22] Processing python scripts in ChatGPT/trans_test/c_to_python/output
+[2025-05-12 21:16:22] Running day 1, part 1 (python)
+[2025-05-12 21:16:22] Day 1, Part 1: Correct
+[2025-05-12 21:16:22] Running day 1, part 2 (python)
+[2025-05-12 21:16:22] Day 1, Part 2: Correct
+[2025-05-12 21:16:22] Running day 6, part 1 (python)
+[2025-05-12 21:16:22] Day 6, Part 1: Correct
+[2025-05-12 21:16:22] Processing clojure scripts in ChatGPT/trans_test/python_to_clojure/output
+[2025-05-12 21:16:22] Skipping invalid file: .cpcache
+[2025-05-12 21:16:22] Skipping invalid file: deps.edn
+[2025-05-12 21:16:22] Running day 1, part 1 (clojure)
+[2025-05-12 21:16:23] Day 1, Part 1: Correct
+[2025-05-12 21:16:23] Running day 1, part 2 (clojure)
+[2025-05-12 21:16:23] Day 1, Part 2: Correct
+[2025-05-12 21:16:23] Running day 2, part 1 (clojure)
+[2025-05-12 21:16:24] Day 2, Part 1: Correct
+[2025-05-12 21:16:24] Running day 2, part 2 (clojure)
+[2025-05-12 21:16:24] Day 2, Part 2: Correct
+[2025-05-12 21:16:24] Running day 3, part 1 (clojure)
+[2025-05-12 21:16:25] Day 3, Part 1: Correct
+[2025-05-12 21:16:25] Running day 3, part 2 (clojure)
+[2025-05-12 21:16:25] Day 3, Part 2: Error - Unknown error (exit 1): Execution error (ClassCastException) at output-03b/part (output_03b.clj:13).
+class clojure.lang.PersistentVector cannot be cast to class java.lang.CharSequence (clojure.lang.PersistentVector is in unnamed module of loader 'app'; java.lang.CharSequence is in module java.base of loader 'bootstrap')
+
+Full report at:
+/tmp/clojure-3857966562223560686.edn
+[2025-05-12 21:16:25] Running day 4, part 1 (clojure)
+[2025-05-12 21:16:26] Day 4, Part 1: Correct
+[2025-05-12 21:16:26] Running day 4, part 2 (clojure)
+[2025-05-12 21:16:27] Day 4, Part 2: Error - Unknown error (exit 1): Syntax error reading source at (output_04b.clj:34:1).
+EOF while reading, starting at line 4
+
+Full report at:
+/tmp/clojure-6365411380194371539.edn
+[2025-05-12 21:16:27] Running day 5, part 1 (clojure)
+[2025-05-12 21:16:28] Day 5, Part 1: Correct
+[2025-05-12 21:16:28] Running day 5, part 2 (clojure)
+[2025-05-12 21:16:28] Day 5, Part 2: Correct
+[2025-05-12 21:16:28] Running day 6, part 1 (clojure)
+[2025-05-12 21:16:29] Day 6, Part 1: Incorrect: Expected 5312, got 5327.
+[2025-05-12 21:16:29] Running day 6, part 2 (clojure)
+[2025-05-12 21:17:06] Day 6, Part 2: Correct
+[2025-05-12 21:17:06] Running day 7, part 1 (clojure)
+[2025-05-12 21:17:07] Day 7, Part 1: Correct
+[2025-05-12 21:17:07] Running day 7, part 2 (clojure)
+[2025-05-12 21:17:59] Day 7, Part 2: Correct
+[2025-05-12 21:17:59] Running day 8, part 1 (clojure)
+[2025-05-12 21:18:00] Day 8, Part 1: Correct
+[2025-05-12 21:18:00] Running day 8, part 2 (clojure)
+[2025-05-12 21:18:01] Day 8, Part 2: Error - Unknown error (exit 1): Syntax error reading source at (output_08b.clj:56:1).
+EOF while reading, starting at line 7
+
+Full report at:
+/tmp/clojure-4358782906025481385.edn
+[2025-05-12 21:18:01] Running day 9, part 2 (clojure)
+[2025-05-12 21:18:02] Day 9, Part 2: Error - Unknown error (exit 1): Execution error (StackOverflowError) at (REPL:1).
+null
+
+Full report at:
+/tmp/clojure-2922594006569404966.edn
+[2025-05-12 21:18:02] Running day 10, part 1 (clojure)
+[2025-05-12 21:18:02] Day 10, Part 1: Error - Unknown error (exit 1): Syntax error reading source at (output_10a.clj:33:38).
+Nested #()s are not allowed
+
+Full report at:
+/tmp/clojure-17965978842245205841.edn
+[2025-05-12 21:18:02] Running day 10, part 2 (clojure)
+[2025-05-12 21:18:03] Day 10, Part 2: Error - Unknown error (exit 1): Syntax error reading source at (output_10b.clj:7:38).
+Nested #()s are not allowed
+
+Full report at:
+/tmp/clojure-2043992037479744903.edn
+[2025-05-12 21:18:03] Running day 11, part 1 (clojure)
+[2025-05-12 21:18:04] Day 11, Part 1: Correct
+[2025-05-12 21:18:04] Running day 11, part 2 (clojure)
+[2025-05-12 21:18:04] Day 11, Part 2: Correct
+[2025-05-12 21:18:04] Running day 12, part 1 (clojure)
+[2025-05-12 21:18:05] Day 12, Part 1: Error - Unknown error (exit 1): Syntax error reading source at (output_12a.clj:73:1).
+EOF while reading, starting at line 35
+
+Full report at:
+/tmp/clojure-13236703432781670170.edn
+[2025-05-12 21:18:05] Running day 13, part 1 (clojure)
+[2025-05-12 21:18:05] Day 13, Part 1: Correct
+[2025-05-12 21:18:05] Running day 14, part 1 (clojure)
+[2025-05-12 21:18:06] Day 14, Part 1: Correct
+[2025-05-12 21:18:06] Running day 16, part 1 (clojure)
+[2025-05-12 21:18:07] Day 16, Part 1: Error - Unknown error (exit 1): Syntax error reading source at (output_16a.clj:59:1).
+EOF while reading, starting at line 7
+
+Full report at:
+/tmp/clojure-330468282870071893.edn
+[2025-05-12 21:18:07] Running day 17, part 1 (clojure)
+[2025-05-12 21:18:07] Day 17, Part 1: Error - Unknown error (exit 1): Execution error (ClassCastException) at output-17a/parse-input$fn (output_17a.clj:15).
+class java.lang.String cannot be cast to class java.util.regex.Pattern (java.lang.String and java.util.regex.Pattern are in module java.base of loader 'bootstrap')
+
+Full report at:
+/tmp/clojure-11084287612510594682.edn
+[2025-05-12 21:18:07] Running day 18, part 1 (clojure)
+[2025-05-12 21:18:08] Day 18, Part 1: Error - Unknown error (exit 1): Syntax error (IllegalArgumentException) compiling recur at (output_18a.clj:33:15).
+Mismatched argument count to recur, expected: 3 args, got: 2
+
+Full report at:
+/tmp/clojure-1455601946762546853.edn
+[2025-05-12 21:18:08] Running day 18, part 2 (clojure)
+[2025-05-12 21:18:09] Day 18, Part 2: Error - Unknown error (exit 1): Syntax error reading source at (output_18b.clj:53:1).
+EOF while reading, starting at line 13
+
+Full report at:
+/tmp/clojure-15986959608147286927.edn
+[2025-05-12 21:18:09] Running day 19, part 1 (clojure)
+[2025-05-12 21:18:09] Day 19, Part 1: Error - Unknown error (exit 1): Execution error (FileNotFoundException) at output-19a/eval136$loading (output_19a.clj:1).
+Could not locate clojure/core/memoize__init.class, clojure/core/memoize.clj or clojure/core/memoize.cljc on classpath.
+
+Full report at:
+/tmp/clojure-11083693473061309156.edn
+[2025-05-12 21:18:09] Running day 19, part 2 (clojure)
+[2025-05-12 21:18:10] Day 19, Part 2: Error - Unknown error (exit 1): Execution error (FileNotFoundException) at output-19b/eval136$loading (output_19b.clj:1).
+Could not locate clojure/core/memoize__init.class, clojure/core/memoize.clj or clojure/core/memoize.cljc on classpath.
+
+Full report at:
+/tmp/clojure-16732130195209115029.edn
+[2025-05-12 21:18:10] Running day 22, part 1 (clojure)
+[2025-05-12 21:18:11] Day 22, Part 1: Correct
+[2025-05-12 21:18:11] Running day 23, part 1 (clojure)
+[2025-05-12 21:18:23] Day 23, Part 1: Correct
+[2025-05-12 21:18:23] Running day 23, part 2 (clojure)
+[2025-05-12 21:18:23] Day 23, Part 2: Correct
+[2025-05-12 21:18:23] Running day 24, part 1 (clojure)
+[2025-05-12 21:18:24] Day 24, Part 1: Error - Unknown error (exit 1): Execution error (NumberFormatException) at java.lang.NumberFormatException/forInputString (NumberFormatException.java:67).
+For input string: "1100011100001101011100111100110111110011101000" under radix 2
+
+Full report at:
+/tmp/clojure-6073338470400336748.edn
+[2025-05-12 21:18:24] Processing c scripts in ChatGPT/trans_test/python_to_c/output
+[2025-05-12 21:18:24] Running day 1, part 1 (c)
+[2025-05-12 21:18:24] Day 1, Part 1: Correct
+[2025-05-12 21:18:24] Running day 1, part 2 (c)
+[2025-05-12 21:18:24] Day 1, Part 2: Correct
+[2025-05-12 21:18:24] Running day 2, part 1 (c)
+[2025-05-12 21:18:24] Day 2, Part 1: Correct
+[2025-05-12 21:18:24] Running day 2, part 2 (c)
+[2025-05-12 21:18:24] Day 2, Part 2: Correct
+[2025-05-12 21:18:24] Running day 3, part 1 (c)
+[2025-05-12 21:18:24] Day 3, Part 1: Incorrect: Expected 167650499, got 172645161.
+[2025-05-12 21:18:24] Running day 3, part 2 (c)
+[2025-05-12 21:18:25] Day 3, Part 2: Incorrect: Expected 95846796, got 171366938.
+[2025-05-12 21:18:25] Running day 4, part 1 (c)
+[2025-05-12 21:18:25] Day 4, Part 1: Correct
+[2025-05-12 21:18:25] Running day 4, part 2 (c)
+[2025-05-12 21:18:25] Day 4, Part 2: Correct
+[2025-05-12 21:18:25] Running day 5, part 1 (c)
+[2025-05-12 21:18:25] Day 5, Part 1: Incorrect: Expected 5391, got 4460.
+[2025-05-12 21:18:25] Running day 5, part 2 (c)
+[2025-05-12 21:18:25] Day 5, Part 2: Error - Compilation error (exit 1): /home/scriptie/Scriptie/ChatGPT/trans_test/python_to_c/output/output_05b.c: In function ‘main’:
+/home/scriptie/Scriptie/ChatGPT/trans_test/python_to_c/output/output_05b.c:137:25: error: called object is not a function or function pointer
+  137 |             if (present[rules[j]()]()
+      |                         ^~~~~
+/home/scriptie/Scriptie/ChatGPT/trans_test/python_to_c/output/output_05b.c:137:38: error: expected ‘)’ at end of input
+  137 |             if (present[rules[j]()]()
+      |                ~                     ^
+      |                                      )
+/home/scriptie/Scriptie/ChatGPT/trans_test/python_to_c/output/output_05b.c:137:13: error: expected declaration or statement at end of input
+  137 |             if (present[rules[j]()]()
+      |             ^~
+/home/scriptie/Scriptie/ChatGPT/trans_test/python_to_c/output/output_05b.c:137:13: error: expected declaration or statement at end of input
+/home/scriptie/Scriptie/ChatGPT/trans_test/python_to_c/output/output_05b.c:137:13: error: expected declaration or statement at end of input
+[2025-05-12 21:18:25] Running day 6, part 1 (c)
+[2025-05-12 21:18:25] Day 6, Part 1: Correct
+[2025-05-12 21:18:25] Running day 6, part 2 (c)
+[2025-05-12 21:18:27] Day 6, Part 2: Correct
+[2025-05-12 21:18:27] Running day 7, part 1 (c)
+[2025-05-12 21:18:27] Day 7, Part 1: Incorrect: Expected 3351424677624, got 12724604536.
+[2025-05-12 21:18:27] Running day 7, part 2 (c)
+[2025-05-12 21:18:27] Day 7, Part 2: Incorrect: Expected 204976636995111, got 200998728409492.
+[2025-05-12 21:18:27] Running day 8, part 1 (c)
+[2025-05-12 21:18:27] Day 8, Part 1: Correct
+[2025-05-12 21:18:27] Running day 8, part 2 (c)
+[2025-05-12 21:18:27] Day 8, Part 2: Correct
+[2025-05-12 21:18:27] Running day 9, part 2 (c)
+[2025-05-12 21:18:27] Day 9, Part 2: Error - Compilation error (exit -11): 
+[2025-05-12 21:18:27] Running day 10, part 1 (c)
+[2025-05-12 21:18:27] Day 10, Part 1: Error - Compilation error (exit -11): 
+[2025-05-12 21:18:27] Running day 10, part 2 (c)
+[2025-05-12 21:18:27] Day 10, Part 2: Correct
+[2025-05-12 21:18:27] Running day 11, part 1 (c)
+[2025-05-12 21:18:27] Day 11, Part 1: Incorrect: Expected 193899, got 159384.
+[2025-05-12 21:18:27] Running day 11, part 2 (c)
+[2025-05-12 21:18:28] Day 11, Part 2: Correct
+[2025-05-12 21:18:28] Running day 12, part 1 (c)
+[2025-05-12 21:18:28] Day 12, Part 1: Correct
+[2025-05-12 21:18:28] Running day 13, part 1 (c)
+[2025-05-12 21:18:28] Day 13, Part 1: Incorrect: Expected 29517, got 9537.
+[2025-05-12 21:18:28] Running day 14, part 1 (c)
+[2025-05-12 21:18:28] Day 14, Part 1: Correct
+[2025-05-12 21:18:28] Running day 16, part 1 (c)
+[2025-05-12 21:18:28] Day 16, Part 1: Correct
+[2025-05-12 21:18:28] Running day 17, part 1 (c)
+[2025-05-12 21:18:28] Day 17, Part 1: Incorrect: Expected 2,7,6,5,6,0,2,3,1, got 2.
+[2025-05-12 21:18:28] Running day 18, part 1 (c)
+[2025-05-12 21:18:28] Day 18, Part 1: Correct
+[2025-05-12 21:18:28] Running day 18, part 2 (c)
+[2025-05-12 21:18:28] Day 18, Part 2: Correct
+[2025-05-12 21:18:28] Running day 19, part 1 (c)
+[2025-05-12 21:18:28] Day 19, Part 1: Error - Compilation error (exit -11): 
+[2025-05-12 21:18:28] Running day 19, part 2 (c)
+[2025-05-12 21:18:29] Day 19, Part 2: Error - Compilation error (exit -11): 
+[2025-05-12 21:18:29] Running day 22, part 1 (c)
+[2025-05-12 21:18:29] Day 22, Part 1: Incorrect: Expected 13234715490, got 349813602.
+[2025-05-12 21:18:29] Running day 23, part 1 (c)
+[2025-05-12 21:18:29] Day 23, Part 1: Correct
+[2025-05-12 21:18:29] Running day 23, part 2 (c)
+[2025-05-12 21:18:29] Day 23, Part 2: Error - Compilation error (exit -11): 
+[2025-05-12 21:18:29] Running day 24, part 1 (c)
+[2025-05-12 21:18:29] Day 24, Part 1: Incorrect: Expected 54715147844840, got 1559461096.
+[2025-05-12 21:18:29] Processing c scripts in ChatGPT/trans_test/clojure_to_c/output
+[2025-05-12 21:18:29] Running day 1, part 1 (c)
+[2025-05-12 21:18:29] Day 1, Part 1: Correct
+[2025-05-12 21:18:29] Running day 1, part 2 (c)
+[2025-05-12 21:18:29] Day 1, Part 2: Correct
+[2025-05-12 21:18:29] Running day 2, part 1 (c)
+[2025-05-12 21:18:29] Day 2, Part 1: Error - Compilation error (exit -11): 
+[2025-05-12 21:18:29] Running day 2, part 2 (c)
+[2025-05-12 21:18:29] Day 2, Part 2: Correct
+[2025-05-12 21:18:29] Running day 3, part 1 (c)
+[2025-05-12 21:18:29] Day 3, Part 1: Incorrect: Expected 167650499, got 172645161.
+[2025-05-12 21:18:29] Running day 4, part 1 (c)
+[2025-05-12 21:18:29] Day 4, Part 1: Error - Compilation error (exit -11): 
+[2025-05-12 21:18:29] Running day 4, part 2 (c)
+[2025-05-12 21:18:29] Day 4, Part 2: Error - Compilation error (exit -11): 
+[2025-05-12 21:18:29] Running day 5, part 1 (c)
+[2025-05-12 21:18:29] Day 5, Part 1: Incorrect: Expected 5391, got 1893.
+[2025-05-12 21:18:29] Running day 5, part 2 (c)
+[2025-05-12 21:18:29] Day 5, Part 2: Error - Compilation error (exit -11): 
+[2025-05-12 21:18:30] Running day 6, part 1 (c)
+[2025-05-12 21:18:30] Day 6, Part 1: Incorrect: Expected 5312, got 84.
+[2025-05-12 21:18:30] Running day 7, part 1 (c)
+[2025-05-12 21:18:30] Day 7, Part 1: Error - Compilation error (exit -6): *** stack smashing detected ***: terminated
+[2025-05-12 21:18:30] Running day 7, part 2 (c)
+[2025-05-12 21:18:30] Day 7, Part 2: Error - Compilation error (exit 1): /usr/bin/ld: /tmp/ccZ9wLg7.o: in function `generate_valid':
+output_07b.c:(.text+0x318): undefined reference to `pow'
+collect2: error: ld returned 1 exit status
+[2025-05-12 21:18:30] Running day 10, part 1 (c)
+[2025-05-12 21:18:30] Day 10, Part 1: Correct
+[2025-05-12 21:18:30] Running day 10, part 2 (c)
+[2025-05-12 21:18:30] Day 10, Part 2: Correct
+[2025-05-12 21:18:30] Running day 18, part 1 (c)
+[2025-05-12 21:18:30] Day 18, Part 1: Incorrect: Expected 334, got -1.
+[2025-05-12 21:18:30] Running day 18, part 2 (c)
+[2025-05-12 21:18:30] Day 18, Part 2: Correct
+[2025-05-12 21:18:30] Running day 19, part 1 (c)
+[2025-05-12 21:18:30] Day 19, Part 1: Incorrect: Expected 324, got 2.
+[2025-05-12 21:18:30] Running day 19, part 2 (c)
+[2025-05-12 21:18:30] Day 19, Part 2: Incorrect: Expected 575227823167869, got 180.
+[2025-05-12 21:18:30] Running day 22, part 1 (c)
+[2025-05-12 21:18:30] Day 22, Part 1: Correct
+[2025-05-12 21:18:30] Processing python scripts in ChatGPT/trans_test/clojure_to_python/output
+[2025-05-12 21:18:30] Running day 1, part 1 (python)
+[2025-05-12 21:18:30] Day 1, Part 1: Correct
+[2025-05-12 21:18:30] Running day 1, part 2 (python)
+[2025-05-12 21:18:31] Day 1, Part 2: Correct
+[2025-05-12 21:18:31] Running day 2, part 1 (python)
+[2025-05-12 21:18:31] Day 2, Part 1: Correct
+[2025-05-12 21:18:31] Running day 2, part 2 (python)
+[2025-05-12 21:18:31] Day 2, Part 2: Correct
+[2025-05-12 21:18:31] Running day 3, part 1 (python)
+[2025-05-12 21:18:31] Day 3, Part 1: Correct
+[2025-05-12 21:18:31] Running day 4, part 1 (python)
+[2025-05-12 21:18:31] Day 4, Part 1: Correct
+[2025-05-12 21:18:31] Running day 4, part 2 (python)
+[2025-05-12 21:18:31] Day 4, Part 2: Correct
+[2025-05-12 21:18:31] Running day 5, part 1 (python)
+[2025-05-12 21:18:31] Day 5, Part 1: Correct
+[2025-05-12 21:18:31] Running day 5, part 2 (python)
+[2025-05-12 21:18:31] Day 5, Part 2: Correct
+[2025-05-12 21:18:31] Running day 6, part 1 (python)
+[2025-05-12 21:18:31] Day 6, Part 1: Correct
+[2025-05-12 21:18:31] Running day 7, part 1 (python)
+[2025-05-12 21:18:31] Day 7, Part 1: Correct
+[2025-05-12 21:18:31] Running day 7, part 2 (python)
+[2025-05-12 21:18:44] Day 7, Part 2: Correct
+[2025-05-12 21:18:44] Running day 10, part 1 (python)
+[2025-05-12 21:18:44] Day 10, Part 1: Correct
+[2025-05-12 21:18:44] Running day 10, part 2 (python)
+[2025-05-12 21:18:44] Day 10, Part 2: Correct
+[2025-05-12 21:18:44] Running day 18, part 1 (python)
+[2025-05-12 21:18:44] Day 18, Part 1: Incorrect: Expected 334, got 140.
+[2025-05-12 21:18:44] Running day 18, part 2 (python)
+[2025-05-12 21:18:52] Day 18, Part 2: Correct
+[2025-05-12 21:18:52] Running day 19, part 1 (python)
+[2025-05-12 21:18:52] Day 19, Part 1: Incorrect: Expected 324, got 0.
+[2025-05-12 21:18:52] Running day 19, part 2 (python)
+[2025-05-12 21:18:52] Day 19, Part 2: Incorrect: Expected 575227823167869, got 0.
+[2025-05-12 21:18:52] Running day 22, part 1 (python)
+[2025-05-12 21:18:53] Day 22, Part 1: Correct
+[2025-05-12 21:18:53] Script execution completed.
+[2025-05-12 21:18:53] Results saved to ./reports/translations.csv

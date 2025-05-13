@@ -1,0 +1,113 @@
+Day,Part,Language,Attempt,Output,Expected Output,Status,Error Message,Execution Time (s),Date/Time
+01,1,clojure,translation_attempt_c_to_clojure,1646452,1646452,CORRECT,,0.768,2025-05-12 21:16:21
+01,2,clojure,translation_attempt_c_to_clojure,23609874,23609874,CORRECT,,0.487,2025-05-12 21:16:22
+06,1,clojure,translation_attempt_c_to_clojure,N/A,5312,ERROR,"Unknown error (exit 1): Execution error (FileNotFoundException) at clojure.main/main (main.java:40). Could not locate output_02a__init.class, output_02a.clj or output_02a.cljc on classpath. Please check that namespaces with dashes use underscores in the Clojure file name.  Full report at: /tmp/clojure-3777954306034829546.edn",0.472,2025-05-12 21:16:22
+01,1,python,translation_attempt_c_to_python,1646452,1646452,CORRECT,,0.008,2025-05-12 21:16:22
+01,2,python,translation_attempt_c_to_python,23609874,23609874,CORRECT,,0.009,2025-05-12 21:16:22
+06,1,python,translation_attempt_c_to_python,5312,5312,CORRECT,,0.008,2025-05-12 21:16:22
+01,1,clojure,translation_attempt_python_to_clojure,1646452,1646452,CORRECT,,0.517,2025-05-12 21:16:23
+01,2,clojure,translation_attempt_python_to_clojure,23609874,23609874,CORRECT,,0.525,2025-05-12 21:16:23
+02,1,clojure,translation_attempt_python_to_clojure,524,524,CORRECT,,0.523,2025-05-12 21:16:24
+02,2,clojure,translation_attempt_python_to_clojure,569,569,CORRECT,,0.530,2025-05-12 21:16:24
+03,1,clojure,translation_attempt_python_to_clojure,167650499,167650499,CORRECT,,0.487,2025-05-12 21:16:25
+03,2,clojure,translation_attempt_python_to_clojure,N/A,95846796,ERROR,Unknown error (exit 1): Execution error (ClassCastException) at output-03b/part (output_03b.clj:13). class clojure.lang.PersistentVector cannot be cast to class java.lang.CharSequence (clojure.lang.PersistentVector is in unnamed module of loader 'app'; java.lang.CharSequence is in module java.base of loader 'bootstrap')  Full report at: /tmp/clojure-3857966562223560686.edn,0.604,2025-05-12 21:16:25
+04,1,clojure,translation_attempt_python_to_clojure,2464,2464,CORRECT,,0.919,2025-05-12 21:16:26
+04,2,clojure,translation_attempt_python_to_clojure,N/A,1982,ERROR,"Unknown error (exit 1): Syntax error reading source at (output_04b.clj:34:1). EOF while reading, starting at line 4  Full report at: /tmp/clojure-6365411380194371539.edn",0.577,2025-05-12 21:16:27
+05,1,clojure,translation_attempt_python_to_clojure,5391,5391,CORRECT,,0.513,2025-05-12 21:16:28
+05,2,clojure,translation_attempt_python_to_clojure,6142,6142,CORRECT,,0.816,2025-05-12 21:16:28
+06,1,clojure,translation_attempt_python_to_clojure,5327,5312,INCORRECT,,0.572,2025-05-12 21:16:29
+06,2,clojure,translation_attempt_python_to_clojure,1748,1748,CORRECT,,36.934,2025-05-12 21:17:06
+07,1,clojure,translation_attempt_python_to_clojure,3351424677624,3351424677624,CORRECT,,1.047,2025-05-12 21:17:07
+07,2,clojure,translation_attempt_python_to_clojure,204976636995111,204976636995111,CORRECT,,52.461,2025-05-12 21:17:59
+08,1,clojure,translation_attempt_python_to_clojure,367,367,CORRECT,,0.734,2025-05-12 21:18:00
+08,2,clojure,translation_attempt_python_to_clojure,N/A,1285,ERROR,"Unknown error (exit 1): Syntax error reading source at (output_08b.clj:56:1). EOF while reading, starting at line 7  Full report at: /tmp/clojure-4358782906025481385.edn",0.626,2025-05-12 21:18:01
+09,2,clojure,translation_attempt_python_to_clojure,N/A,6301361958738,ERROR,Unknown error (exit 1): Execution error (StackOverflowError) at (REPL:1). null  Full report at: /tmp/clojure-2922594006569404966.edn,0.861,2025-05-12 21:18:02
+10,1,clojure,translation_attempt_python_to_clojure,N/A,459,ERROR,Unknown error (exit 1): Syntax error reading source at (output_10a.clj:33:38). Nested #()s are not allowed  Full report at: /tmp/clojure-17965978842245205841.edn,0.651,2025-05-12 21:18:02
+10,2,clojure,translation_attempt_python_to_clojure,N/A,1034,ERROR,Unknown error (exit 1): Syntax error reading source at (output_10b.clj:7:38). Nested #()s are not allowed  Full report at: /tmp/clojure-2043992037479744903.edn,0.674,2025-05-12 21:18:03
+11,1,clojure,translation_attempt_python_to_clojure,193899,193899,CORRECT,,0.639,2025-05-12 21:18:04
+11,2,clojure,translation_attempt_python_to_clojure,229682160383225,229682160383225,CORRECT,,0.611,2025-05-12 21:18:04
+12,1,clojure,translation_attempt_python_to_clojure,N/A,1449902,ERROR,"Unknown error (exit 1): Syntax error reading source at (output_12a.clj:73:1). EOF while reading, starting at line 35  Full report at: /tmp/clojure-13236703432781670170.edn",0.653,2025-05-12 21:18:05
+13,1,clojure,translation_attempt_python_to_clojure,29517,29517,CORRECT,,0.645,2025-05-12 21:18:05
+14,1,clojure,translation_attempt_python_to_clojure,230461440,230461440,CORRECT,,0.562,2025-05-12 21:18:06
+16,1,clojure,translation_attempt_python_to_clojure,N/A,99488,ERROR,"Unknown error (exit 1): Syntax error reading source at (output_16a.clj:59:1). EOF while reading, starting at line 7  Full report at: /tmp/clojure-330468282870071893.edn",0.703,2025-05-12 21:18:07
+17,1,clojure,translation_attempt_python_to_clojure,N/A,"2,7,6,5,6,0,2,3,1",ERROR,Unknown error (exit 1): Execution error (ClassCastException) at output-17a/parse-input$fn (output_17a.clj:15). class java.lang.String cannot be cast to class java.util.regex.Pattern (java.lang.String and java.util.regex.Pattern are in module java.base of loader 'bootstrap')  Full report at: /tmp/clojure-11084287612510594682.edn,0.639,2025-05-12 21:18:07
+18,1,clojure,translation_attempt_python_to_clojure,N/A,334,ERROR,"Unknown error (exit 1): Syntax error (IllegalArgumentException) compiling recur at (output_18a.clj:33:15). Mismatched argument count to recur, expected: 3 args, got: 2  Full report at: /tmp/clojure-1455601946762546853.edn",0.618,2025-05-12 21:18:08
+18,2,clojure,translation_attempt_python_to_clojure,N/A,"[20, 12]",ERROR,"Unknown error (exit 1): Syntax error reading source at (output_18b.clj:53:1). EOF while reading, starting at line 13  Full report at: /tmp/clojure-15986959608147286927.edn",0.622,2025-05-12 21:18:09
+19,1,clojure,translation_attempt_python_to_clojure,N/A,324,ERROR,"Unknown error (exit 1): Execution error (FileNotFoundException) at output-19a/eval136$loading (output_19a.clj:1). Could not locate clojure/core/memoize__init.class, clojure/core/memoize.clj or clojure/core/memoize.cljc on classpath.  Full report at: /tmp/clojure-11083693473061309156.edn",0.633,2025-05-12 21:18:09
+19,2,clojure,translation_attempt_python_to_clojure,N/A,575227823167869,ERROR,"Unknown error (exit 1): Execution error (FileNotFoundException) at output-19b/eval136$loading (output_19b.clj:1). Could not locate clojure/core/memoize__init.class, clojure/core/memoize.clj or clojure/core/memoize.cljc on classpath.  Full report at: /tmp/clojure-16732130195209115029.edn",0.629,2025-05-12 21:18:10
+22,1,clojure,translation_attempt_python_to_clojure,13234715490,13234715490,CORRECT,,0.710,2025-05-12 21:18:11
+23,1,clojure,translation_attempt_python_to_clojure,1485,1485,CORRECT,,11.965,2025-05-12 21:18:23
+23,2,clojure,translation_attempt_python_to_clojure,"cc,dz,ea,hj,if,it,kf,qo,sk,ug,ut,uv,wh","cc,dz,ea,hj,if,it,kf,qo,sk,ug,ut,uv,wh",CORRECT,,0.879,2025-05-12 21:18:23
+24,1,clojure,translation_attempt_python_to_clojure,N/A,54715147844840,ERROR,"Unknown error (exit 1): Execution error (NumberFormatException) at java.lang.NumberFormatException/forInputString (NumberFormatException.java:67). For input string: ""1100011100001101011100111100110111110011101000"" under radix 2  Full report at: /tmp/clojure-6073338470400336748.edn",0.654,2025-05-12 21:18:24
+01,1,c,translation_attempt_python_to_c,1646452,1646452,CORRECT,,0.120,2025-05-12 21:18:24
+01,2,c,translation_attempt_python_to_c,23609874,23609874,CORRECT,,0.069,2025-05-12 21:18:24
+02,1,c,translation_attempt_python_to_c,524,524,CORRECT,,0.067,2025-05-12 21:18:24
+02,2,c,translation_attempt_python_to_c,569,569,CORRECT,,0.058,2025-05-12 21:18:24
+03,1,c,translation_attempt_python_to_c,172645161,167650499,INCORRECT,,0.056,2025-05-12 21:18:24
+03,2,c,translation_attempt_python_to_c,171366938,95846796,INCORRECT,,0.048,2025-05-12 21:18:25
+04,1,c,translation_attempt_python_to_c,2464,2464,CORRECT,,0.054,2025-05-12 21:18:25
+04,2,c,translation_attempt_python_to_c,1982,1982,CORRECT,,0.050,2025-05-12 21:18:25
+05,1,c,translation_attempt_python_to_c,4460,5391,INCORRECT,,0.048,2025-05-12 21:18:25
+05,2,c,translation_attempt_python_to_c,N/A,6142,ERROR,Compilation error (exit 1): /home/scriptie/Scriptie/ChatGPT/trans_test/python_to_c/output/output_05b.c: In function ‘main’: /home/scriptie/Scriptie/ChatGPT/trans_test/python_to_c/output/output_05b.c:137:25: error: called object is not a function or function pointer   137 |             if (present[rules[j]()]()       |                         ^~~~~ /home/scriptie/Scriptie/ChatGPT/trans_test/python_to_c/output/output_05b.c:137:38: error: expected ‘)’ at end of input   137 |             if (present[rules[j]()]()       |                ~                     ^       |                                      ) /home/scriptie/Scriptie/ChatGPT/trans_test/python_to_c/output/output_05b.c:137:13: error: expected declaration or statement at end of input   137 |             if (present[rules[j]()]()       |             ^~ /home/scriptie/Scriptie/ChatGPT/trans_test/python_to_c/output/output_05b.c:137:13: error: expected declaration or statement at end of input /home/scriptie/Scriptie/ChatGPT/trans_test/python_to_c/output/output_05b.c:137:13: error: expected declaration or statement at end of input,0.009,2025-05-12 21:18:25
+06,1,c,translation_attempt_python_to_c,5312,5312,CORRECT,,0.058,2025-05-12 21:18:25
+06,2,c,translation_attempt_python_to_c,1748,1748,CORRECT,,1.884,2025-05-12 21:18:27
+07,1,c,translation_attempt_python_to_c,12724604536,3351424677624,INCORRECT,,0.066,2025-05-12 21:18:27
+07,2,c,translation_attempt_python_to_c,200998728409492,204976636995111,INCORRECT,,0.265,2025-05-12 21:18:27
+08,1,c,translation_attempt_python_to_c,367,367,CORRECT,,0.070,2025-05-12 21:18:27
+08,2,c,translation_attempt_python_to_c,1285,1285,CORRECT,,0.073,2025-05-12 21:18:27
+09,2,c,translation_attempt_python_to_c,N/A,6301361958738,ERROR,Compilation error (exit -11):,0.061,2025-05-12 21:18:27
+10,1,c,translation_attempt_python_to_c,N/A,459,ERROR,Compilation error (exit -11):,0.113,2025-05-12 21:18:27
+10,2,c,translation_attempt_python_to_c,1034,1034,CORRECT,,0.077,2025-05-12 21:18:27
+11,1,c,translation_attempt_python_to_c,159384,193899,INCORRECT,,0.091,2025-05-12 21:18:27
+11,2,c,translation_attempt_python_to_c,229682160383225,229682160383225,CORRECT,,0.123,2025-05-12 21:18:28
+12,1,c,translation_attempt_python_to_c,1449902,1449902,CORRECT,,0.124,2025-05-12 21:18:28
+13,1,c,translation_attempt_python_to_c,9537,29517,INCORRECT,,0.101,2025-05-12 21:18:28
+14,1,c,translation_attempt_python_to_c,230461440,230461440,CORRECT,,0.071,2025-05-12 21:18:28
+16,1,c,translation_attempt_python_to_c,99488,99488,CORRECT,,0.075,2025-05-12 21:18:28
+17,1,c,translation_attempt_python_to_c,2,"2,7,6,5,6,0,2,3,1",INCORRECT,,0.062,2025-05-12 21:18:28
+18,1,c,translation_attempt_python_to_c,334,334,CORRECT,,0.061,2025-05-12 21:18:28
+18,2,c,translation_attempt_python_to_c,"20,12","[20, 12]",CORRECT,,0.257,2025-05-12 21:18:28
+19,1,c,translation_attempt_python_to_c,N/A,324,ERROR,Compilation error (exit -11):,0.084,2025-05-12 21:18:28
+19,2,c,translation_attempt_python_to_c,N/A,575227823167869,ERROR,Compilation error (exit -11):,0.087,2025-05-12 21:18:29
+22,1,c,translation_attempt_python_to_c,349813602,13234715490,INCORRECT,,0.083,2025-05-12 21:18:29
+23,1,c,translation_attempt_python_to_c,1485,1485,CORRECT,,0.097,2025-05-12 21:18:29
+23,2,c,translation_attempt_python_to_c,N/A,"cc,dz,ea,hj,if,it,kf,qo,sk,ug,ut,uv,wh",ERROR,Compilation error (exit -11):,0.081,2025-05-12 21:18:29
+24,1,c,translation_attempt_python_to_c,1559461096,54715147844840,INCORRECT,,0.080,2025-05-12 21:18:29
+01,1,c,translation_attempt_clojure_to_c,1646452,1646452,CORRECT,,0.063,2025-05-12 21:18:29
+01,2,c,translation_attempt_clojure_to_c,23609874,23609874,CORRECT,,0.057,2025-05-12 21:18:29
+02,1,c,translation_attempt_clojure_to_c,N/A,524,ERROR,Compilation error (exit -11):,0.066,2025-05-12 21:18:29
+02,2,c,translation_attempt_clojure_to_c,569,569,CORRECT,,0.067,2025-05-12 21:18:29
+03,1,c,translation_attempt_clojure_to_c,172645161,167650499,INCORRECT,,0.058,2025-05-12 21:18:29
+04,1,c,translation_attempt_clojure_to_c,N/A,2464,ERROR,Compilation error (exit -11):,0.071,2025-05-12 21:18:29
+04,2,c,translation_attempt_clojure_to_c,N/A,1982,ERROR,Compilation error (exit -11):,0.061,2025-05-12 21:18:29
+05,1,c,translation_attempt_clojure_to_c,1893,5391,INCORRECT,,0.078,2025-05-12 21:18:29
+05,2,c,translation_attempt_clojure_to_c,N/A,6142,ERROR,Compilation error (exit -11):,0.101,2025-05-12 21:18:29
+06,1,c,translation_attempt_clojure_to_c,84,5312,INCORRECT,,0.065,2025-05-12 21:18:30
+07,1,c,translation_attempt_clojure_to_c,N/A,3351424677624,ERROR,Compilation error (exit -6): *** stack smashing detected ***: terminated,0.066,2025-05-12 21:18:30
+07,2,c,translation_attempt_clojure_to_c,N/A,204976636995111,ERROR,Compilation error (exit 1): /usr/bin/ld: /tmp/ccZ9wLg7.o: in function `generate_valid': output_07b.c:(.text+0x318): undefined reference to `pow' collect2: error: ld returned 1 exit status,0.070,2025-05-12 21:18:30
+10,1,c,translation_attempt_clojure_to_c,459,459,CORRECT,,0.066,2025-05-12 21:18:30
+10,2,c,translation_attempt_clojure_to_c,1034,1034,CORRECT,,0.060,2025-05-12 21:18:30
+18,1,c,translation_attempt_clojure_to_c,-1,334,INCORRECT,,0.055,2025-05-12 21:18:30
+18,2,c,translation_attempt_clojure_to_c,"20,12","[20, 12]",CORRECT,,0.309,2025-05-12 21:18:30
+19,1,c,translation_attempt_clojure_to_c,2,324,INCORRECT,,0.072,2025-05-12 21:18:30
+19,2,c,translation_attempt_clojure_to_c,180,575227823167869,INCORRECT,,0.124,2025-05-12 21:18:30
+22,1,c,translation_attempt_clojure_to_c,13234715490,13234715490,CORRECT,,0.082,2025-05-12 21:18:30
+01,1,python,translation_attempt_clojure_to_python,1646452,1646452,CORRECT,,0.010,2025-05-12 21:18:30
+01,2,python,translation_attempt_clojure_to_python,23609874,23609874,CORRECT,,0.010,2025-05-12 21:18:31
+02,1,python,translation_attempt_clojure_to_python,524,524,CORRECT,,0.012,2025-05-12 21:18:31
+02,2,python,translation_attempt_clojure_to_python,569,569,CORRECT,,0.012,2025-05-12 21:18:31
+03,1,python,translation_attempt_clojure_to_python,167650499,167650499,CORRECT,,0.011,2025-05-12 21:18:31
+04,1,python,translation_attempt_clojure_to_python,2464,2464,CORRECT,,0.032,2025-05-12 21:18:31
+04,2,python,translation_attempt_clojure_to_python,1982,1982,CORRECT,,0.025,2025-05-12 21:18:31
+05,1,python,translation_attempt_clojure_to_python,5391,5391,CORRECT,,0.011,2025-05-12 21:18:31
+05,2,python,translation_attempt_clojure_to_python,6142,6142,CORRECT,,0.023,2025-05-12 21:18:31
+06,1,python,translation_attempt_clojure_to_python,5312,5312,CORRECT,,0.011,2025-05-12 21:18:31
+07,1,python,translation_attempt_clojure_to_python,3351424677624,3351424677624,CORRECT,,0.122,2025-05-12 21:18:31
+07,2,python,translation_attempt_clojure_to_python,204976636995111,204976636995111,CORRECT,,13.511,2025-05-12 21:18:44
+10,1,python,translation_attempt_clojure_to_python,459,459,CORRECT,,0.010,2025-05-12 21:18:44
+10,2,python,translation_attempt_clojure_to_python,1034,1034,CORRECT,,0.009,2025-05-12 21:18:44
+18,1,python,translation_attempt_clojure_to_python,140,334,INCORRECT,,0.014,2025-05-12 21:18:44
+18,2,python,translation_attempt_clojure_to_python,"20,12","[20, 12]",CORRECT,,7.899,2025-05-12 21:18:52
+19,1,python,translation_attempt_clojure_to_python,0,324,INCORRECT,,0.016,2025-05-12 21:18:52
+19,2,python,translation_attempt_clojure_to_python,0,575227823167869,INCORRECT,,0.020,2025-05-12 21:18:52
+22,1,python,translation_attempt_clojure_to_python,13234715490,13234715490,CORRECT,,0.595,2025-05-12 21:18:53
