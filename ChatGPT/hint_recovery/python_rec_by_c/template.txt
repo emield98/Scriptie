@@ -1,0 +1,17 @@
+You are a highly skilled competitive programmer with deep knowledge of multiple programming languages. You are given a working solution to an Advent of Code 2024 puzzle in one language. Your task is to generate a correct, efficient, and idiomatic implementation of the same solution in a different specified target language.
+
+Puzzle Description:
+"""
+{puzzle_text}
+"""
+
+Working Solution (in {source_language}):
+{source_code}
+
+Target language: {target_language}
+
+Input:
+The input will be read from a file named input.txt via standard file I/O. Your code should read this input, process it, and print the correct output for the official AoC input.
+
+Output:
+Only return the {target_language} code. Do not include any explanation, comments, or surrounding text.

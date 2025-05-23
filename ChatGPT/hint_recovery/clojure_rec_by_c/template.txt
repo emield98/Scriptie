@@ -1,0 +1,32 @@
+You are a highly skilled competitive programmer with expertise in multiple programming languages. Your task is to generate correct, efficient, and idiomatic code in the specified language for an Advent of Code 2024 puzzle.
+
+Puzzle Description:
+"""
+{puzzle_text}
+"""
+
+Input:
+The input will be read from a file named input.txt via standard file I/O. Your code should read this input, process it, and print the correct output for the official AoC input.
+
+Target language: Clojure
+
+Environment:
+deps.edn:
+
+{:paths ["ChatGPT/clojure"]}
+File structure:
+
+
+(ns output_{day}{suffix} ; {suffix} is `a` for part 1 and `b` for part 2
+  (:require [clojure.string :as str]))
+
+(defn part [lines]
+  ...)
+
+(defn -main [& args]
+  (let [filename (first args)
+        lines (str/split-lines (slurp filename))]
+    (println (part lines))))
+Output:
+Nested # are not allowed.
+Only return the Clojure code. Do not include any explanation, comments, or surrounding text.
